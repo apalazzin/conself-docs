@@ -1,0 +1,1725 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hugo Learn Theme</title>
+    <link>https://apalazzin.github.io/index.xml</link>
+    <description>Recent content on Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jan 2017 19:00:52 +0100</lastBuildDate>
+    <atom:link href="https://apalazzin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>1.1. Credits management and statistics</title>
+      <link>https://apalazzin.github.io/manual/credits-management-and-statistics/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/credits-management-and-statistics/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/Credit_page.png&#34; alt=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one.&#34; title=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one.&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CONSELF it is a &lt;strong&gt;pay-per-use CFD&lt;/strong&gt; application available via browser. In order to enjoy this service, you must &lt;strong&gt;activate&lt;/strong&gt; one of the &lt;a href=&#34;https://conself.com/product/subscriptions/&#34;&gt;available plans&lt;/a&gt;. When entering the application you can access two main pages: the &lt;em&gt;dashboard&lt;/em&gt; and the &lt;em&gt;simulations&lt;/em&gt;. Before proceeding to the part concerning the CFD, let&amp;rsquo;s have a look at what is reported in the dashboard. In here you keep under control the whole application and you have at a glance all the information about your simulations and credits availability.&lt;/p&gt;
+
+&lt;p&gt;Entering into the details of the dashboard, we have:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pie chart&lt;/strong&gt;: report of the used vs available credits. The report refers to your current plan and it gets updated after every simulation finishes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Horizontal bars chart&lt;/strong&gt;: credits used during latest cases. With CONSELF you keep track of your costs in every moment and with this tool you can understand how you are using your credits and thus charging your customer according to this.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bottom left buttons&lt;/strong&gt;: link to this manual and to the CONSELF support team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More statistics are reported in the dashboard, such as the number of simulation steps performed. You are all invited to suggest even more by contacting the support team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.2. CONSELF simulation process</title>
+      <link>https://apalazzin.github.io/manual/conself-simulation-process/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/conself-simulation-process/</guid>
+      <description>
+
+&lt;p&gt;Using means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simulation&lt;/strong&gt;: a mathematical procedure that allows to reproduce in a virtual environment - software - a physical behavior. Compared to laboratory tests, it is a quicker and cheaper process. Ultimately, simulations help engineers validate the hypothesis behind every design phase.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Case&lt;/strong&gt;: any single test performed by using a simulation system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step&lt;/strong&gt;: any single phase the user has to accomplish in order to run a complete case simulation.&lt;/p&gt;
+
+&lt;p&gt;Although each CASE simulation depends on the users&amp;rsquo; needs, defines an identical path for every simulation. This path is divided into the following STEPS:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Step_selection.png&#34; alt=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one&#34; title=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Geometry&lt;/li&gt;
+&lt;li&gt;Mesh&lt;/li&gt;
+&lt;li&gt;CFD&lt;/li&gt;
+&lt;li&gt;Results&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Obviously, in order to perform a certain STEP all previous ones must be completed. Furthermore, it is possible to run multiple STEP from the same precursor (i.e. run multiple CFD by using the same mesh). For this reason, when starting a new STEP it is always required to link it to a precursor, as shown in the picture.&lt;/p&gt;
+
+&lt;p&gt;In the present manual, each of these steps are accurately described and displayed, with examples taken form -run tutorials.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-management&#34;&gt;Case Management&lt;/h3&gt;
+
+&lt;p&gt;After having logged in, the dashboard appears on screen. On the menu on the left side, the last entry is the &lt;strong&gt;Simulations&lt;/strong&gt; tab. Click on it to be redirected to the simulations front page, shown in the following figure. There are three main sections: two in the upper part and one in the bottom part of the figure.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Creation of new case&lt;/em&gt;: the case name has to be inserted in the edit box and must be no longer than 255 characters.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Application selection&lt;/em&gt; drop-down menu. This menu defines the application to be used in the current case among the available ones.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Create&lt;/em&gt; button redirects the user to &lt;em&gt;Section A&lt;/em&gt; of the &lt;a href=&#34;Manual#GEOMETRY&#34; title=&#34;wikilink&#34;&gt;Manual#GEOMETRY&lt;/a&gt; step of the newly created case.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Field name&lt;/th&gt;
+&lt;th&gt;Application name&lt;/th&gt;
+&lt;th&gt;Main features&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;GENERAL&lt;/td&gt;
+&lt;td&gt;Compressible and incompressible with steady and transient features.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;TURBO - SRF PUMPS&lt;/td&gt;
+&lt;td&gt;Single reference frame (rotating) incompressible flow. Steady simulation for pumps.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;OIL&amp;amp;GAS - FLOW WITH PARTICLES&lt;/td&gt;
+&lt;td&gt;Incompressible flow with with solid particles transported.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;OIL&amp;amp;GAS - MULTIPHASE FLOW&lt;/td&gt;
+&lt;td&gt;Incompressible flow of two inmiscible species.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;HVAC - JET FANS&lt;/td&gt;
+&lt;td&gt;CO and FIRE scenarios for indoor car park simulations.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MECH&lt;/td&gt;
+&lt;td&gt;STATIC&lt;/td&gt;
+&lt;td&gt;Mechanical simulation using an isotropic linear elastic material.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code&gt;Type the first part of the application name to filter the available choices.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/CarSimulationCaseCreation.png&#34; alt=&#34;Definitions of the zones in which the user interface is divided&#34; title=&#34;Definitions of the zones in which the user interface is divided&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Selection of case&lt;/em&gt;: the user can open a previously created case from the drop-down list.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Open&lt;/em&gt; button redirects the user to the section/step where they left the last time that particular case was edited.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Cases in progress&lt;/em&gt;: all running simulations are shown in a table with the following details&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Case name&lt;/em&gt;: as inserted by the user during the creation&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Step&lt;/em&gt;: the step that is running in that moment&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Progress&lt;/em&gt;: both progress and percentage bars show the completion status for a given step&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ETA&lt;/em&gt;: estimated time remaining to the end of the current step&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;disk-management&#34;&gt;Disk Management&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Storage_page.png&#34; alt=&#34;Disk management interface with reference to the area of the screen and the information displayed&#34; title=&#34;Disk management interface with reference to the area of the screen and the information displayed&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CONSELF provides also cloud storage to save your remote cases. The storage availability may be different according to the plan you activate in our store. It is possible to check the space available on the disk and manage old cases.&lt;/p&gt;
+
+&lt;h3 id=&#34;conself-step-by-step&#34;&gt;CONSELF step by step&lt;/h3&gt;
+
+&lt;p&gt;guides you through the simulation literally step by step; in fact, in order to complete a simulation, the user has to go through several steps, each of which fulfills a precise task. Given the high flexibility of this method, users, less experienced as well, may take advantage of this philosophy of work: they have the ability to control the process, start over or modify what had previously been done. When a CASE is opened, a STEP interface is accessed, as shown in the picture below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/General_STEP_page.png&#34; alt=&#34;General STEP page&#34; title=&#34;General STEP page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The application is generally divided into two sides:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Left side&lt;/em&gt;: current step options to be defined by the user&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Right side&lt;/em&gt;: view of the simulation results up to the current step&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is fundamental to note the button (GREEN or RED) on the top right of the page named &lt;em&gt;Steps completed&lt;/em&gt;. By clicking it is possible to access a summary of performed steps with error messages, settings used and other information useful to keep improving your simulation. We recommend to &lt;strong&gt;check the &lt;a href=&#34;:Errors&#34; title=&#34;wikilink&#34;&gt;error&lt;/a&gt;&lt;/strong&gt; to have a quick overview of the most common error and their solution.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.3. GEOMETRY</title>
+      <link>https://apalazzin.github.io/manual/geometry/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/geometry/</guid>
+      <description>
+
+&lt;p&gt;The geometry step represents the phase in which the user defines the main geometrical characteristics of the case. The user is required to draw a complete geometry using a CAD software - see &lt;a href=&#34;External_link&#34; title=&#34;wikilink&#34;&gt;External_link&lt;/a&gt; to find free CAD softwares available on the internet that can be used with CONSELF CFD on Cloud. &lt;strong&gt;In order to get more information about the generation of CAD files, see &lt;a href=&#34;:CAD_file&#34; title=&#34;wikilink&#34;&gt;this page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CONSELF can handle multiple unit systems and, furthermore, the user interface has the capability to generate a wind-tunnel geometry around the geometry, in order to speed up the setup process.&lt;/p&gt;
+
+&lt;h3 id=&#34;file-data&#34;&gt;File data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Upload your geometry file. Supported formats are: &lt;em&gt;STEP&lt;/em&gt;, &lt;em&gt;STP&lt;/em&gt;, &lt;em&gt;IGES&lt;/em&gt;, &lt;em&gt;IGS&lt;/em&gt;, &lt;em&gt;STL&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;File Units&lt;/em&gt;: definition of the unit system used to generate the geometry file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;pre&gt;&lt;code&gt;CONSELF CFD on Cloud uses S.I. units. The length unit is used to rescale the geometry sizes to meters.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;domain&#34;&gt;Domain&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Flow type&lt;/em&gt;: definition of the type of flow, whether &lt;em&gt;internal&lt;/em&gt; or &lt;em&gt;external&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Bounding Box&lt;/em&gt; (present only if &lt;em&gt;External Flow&lt;/em&gt; is selected): six data to define the distance of the bounding box from your geometry in negative and positive directions respectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After the completion of all fields, the user can finalize the step by clicking on the &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;Geometry&lt;/strong&gt; step application that will appear in the &lt;em&gt;Case in progress&lt;/em&gt; section of main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
+
+&lt;h3 id=&#34;practice&#34;&gt;Practice&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/neXBd2zPJbc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;In order to practice with the geometry step, please have a look at &lt;a href=&#34;:Category:Geometry&#34; title=&#34;wikilink&#34;&gt;these tutorials&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.4. MESH</title>
+      <link>https://apalazzin.github.io/manual/mesh/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/mesh/</guid>
+      <description>
+
+&lt;p&gt;Mesh is the STEP required in order to define the mesh.&lt;/p&gt;
+
+&lt;h3 id=&#34;volume-mesh&#34;&gt;Volume mesh&lt;/h3&gt;
+
+&lt;p&gt;In this section the user is asked to define the mesh algorithm and the basic mesh feature.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Meshing algorithm&lt;/em&gt;: drop down list from which the user has to select the meshing algorithm (see pictures below).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Hexahedral&lt;/em&gt;: by using this algorithm, a fully cartesian grid is obtained. Depending on the mesh dimension specifications on the boundaries, local grid refinements are applied to meet the resolution constraints. In case the boundary layer is active, a highly stretched prismatic mesh is added to the tetrahedral one in the vicinity of the boundary surfaces.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Tetrahedral&lt;/em&gt;: by using this algorithm, a fully tetrahedral mesh is obtained. In case the boundary layer is active, a highly stretched prismatic mesh is added to the tetrahedral one in the vicinity of the boundary surfaces.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Mesh smoothing&lt;/em&gt;: uniformity level of the volume mesh assigned as a percentage.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/HEXAMesh.png&#34; alt=&#34;Hexahedral mesh&#34; title=&#34;Hexahedral mesh&#34; /&gt; &lt;img src=&#34;images/Dolfin_mesh.png&#34; alt=&#34;Tetrahedral mesh&#34; title=&#34;Tetrahedral mesh&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/HEXAMesh.png&#34; alt=&#34;Hexahedral mesh&#34; title=&#34;Hexahedral mesh&#34; style=&#34;height: 200px; display: inline-block;&#34;/&gt;
+&lt;img src=&#34;images/Dolfin_mesh.png&#34; alt=&#34;Tetrahedral mesh&#34; title=&#34;Tetrahedral mesh&#34; style=&#34;height: 200px; display: inline-block;&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;surface-refinement&#34;&gt;Surface Refinement&lt;/h3&gt;
+
+&lt;p&gt;In this section it is possible to define mesh local refinement for each of the considered surfaces.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Boundary treatment&lt;/em&gt;: selection of the boundary using an accordion menu.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Mesh uniformity&lt;/em&gt;: percentage that defines how rapidly the basic elements dimension grows.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Maximum mesh size&lt;/em&gt;: it defines the local mesh refinement (i.e. the element size) on the selected surface.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;advices&#34;&gt;Advices&lt;/h4&gt;
+
+&lt;p&gt;In order to choose correctly the &lt;em&gt;Maximum mesh size&lt;/em&gt; it is important to run a convergence analysis.&lt;/p&gt;
+
+&lt;h3 id=&#34;boundary-layer&#34;&gt;Boundary layer&lt;/h3&gt;
+
+&lt;p&gt;In this section it is possible to activate the boundary treatment (i.e. boundary layer) for wall resolution in CFD simulations.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Boundary treatment&lt;/em&gt;: selection of the boundary using an accordion menu.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Wall layers number&lt;/em&gt;: number of wall layers to be extruded from the surface&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;First wall cell height&lt;/em&gt;: value that ranges from (1\cdot e^{-6}\ [m]) to (1\cdot e^6\ [m]) and defines the dimension of the nearest cell to the wall in the normal direction.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/TetraBL.png&#34; alt=&#34;Representation of the two parameters used to define the boundary treatment&#34; title=&#34;Representation of the two parameters used to define the boundary treatment&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;First wall cell height and y+ are mutually influenced. Remember to decrease the cell height if y+ is above 300 for k-epsilon or 1 for other turbulence models.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After having completed this setup, the user can finalize the step by clicking on the &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;Mesh&lt;/strong&gt; step application that will show up in the &lt;em&gt;Case in progress&lt;/em&gt; section of the main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
+
+&lt;h3 id=&#34;practice&#34;&gt;Practice&lt;/h3&gt;
+
+&lt;p&gt;More &lt;strong&gt;information about&lt;/strong&gt; mesh quality is available in &lt;strong&gt;&lt;a href=&#34;https://conself.com/blog/4-mesh-issues-poor-accuracy/&#34;&gt;this&lt;/a&gt; blog post&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://conself.com/blog/what-is-boundary-layer-and-how-can-you-handle-it/&#34;&gt;this&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.5. CFD</title>
+      <link>https://apalazzin.github.io/manual/cfd/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/cfd/</guid>
+      <description>
+
+&lt;p&gt;The CFD step represents the widest part of the whole simulation settings. The parameters present in the current step may vary according to the application chosen.&lt;/p&gt;
+
+&lt;h3 id=&#34;fluid-models&#34;&gt;Fluid Models&lt;/h3&gt;
+
+&lt;p&gt;The first section is about defining the fluid models, turbulence and density in particular.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Flow type&lt;/em&gt;: drop down list from which the user has to select the flow type&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Incompressible&lt;/em&gt;: to simulate incompressible fluids like water, oil or air at low velocity.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Compressible&lt;/em&gt;: to simulate compressible ideal-fluids like air or gas in general&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Turbulence&lt;/em&gt;: drop down list from which the user has to select the turbulence model&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Laminar&lt;/em&gt;: to simulate viscous flows in laminar regime&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;k-epsilon&lt;/em&gt;: to model turbulence via the two equations &lt;em&gt;k-epsilon&lt;/em&gt; model (&lt;a href=&#34;http://turbmodels.larc.nasa.gov/ke-chien.html&#34;&gt;reference&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;k-omega SST&lt;/em&gt;: to model turbulence via the two equations &lt;em&gt;k-omega SST&lt;/em&gt; model (&lt;a href=&#34;http://turbmodels.larc.nasa.gov/sst.html&#34;&gt;reference&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;SA&lt;/em&gt;: to model turbulence via the one equation &lt;em&gt;Spalart-Allmaras&lt;/em&gt; model (&lt;a href=&#34;http://turbmodels.larc.nasa.gov/spalart.html&#34;&gt;reference&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Fluid properties&lt;/em&gt;: specification of the fluid properties parameters&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Fluid initialization&lt;/em&gt;: definition of the initial condition for the fluid variables&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;pre&gt;&lt;code&gt;Properties and parameters to insert vary with the Flow Type
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Turbulence initialization&lt;/em&gt;: definition of the initial condition for the turbulent variables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We report here the most common initialization for the turbulent variables&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Turbulent kinetic energy: $ k = \cfrac{3}{2} \left( \overline{u} \cdot I \right)^{2} $&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Turbulent dissipation rate: $ \epsilon = \cfrac{0.09 k^{1.5}}{l} $&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Specific dissipation rate: $ \omega = \cfrac{\sqrt{k}}{l} $&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Turbulent kinematic eddy viscosity: $ \nu_{t} = \sqrt{\cfrac{3}{2}} \overline{u} \cdot I l $&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;where $ I $ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $ D_h $.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Properties and parameters to insert vary with the Turbulence
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;special-sections&#34;&gt;Special sections&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[To be completed &amp;hellip;]&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;boundary-conditions&#34;&gt;Boundary Conditions&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/BC_selection.png&#34; alt=&#34;Velocity inlet boundary condition application to selected boundary *asmo*.&#34; title=&#34;Velocity inlet boundary condition application to selected boundary asmo.&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The boundary conditions are the fundamental stage of the CFD simulations. CONSELF gives you a multiple choice of boundaries, each of which is target for the peculiar application you are currently using. Here you are a brief summary of what you are required to insert.&lt;/p&gt;
+
+&lt;p&gt;In this section it is possible to specify the boundary condition to apply to the flow. For instance, it is possible to define an inlet, an outlet or a wall. In order to do that the user has to specify for each flow variable its value (or gradient) at a specific boundary.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Boundary condition&lt;/em&gt;: drop down list from which the user has to select every surface of which the geometry (and the bounding box) is composed in order to assign boundary conditions to it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;BC TYPE list&lt;/em&gt;: a list of available boundary conditions to be assigned to every surface. Every choice of this list gives access to a certain number of parameters to be defined in order to process it correctly.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In order to get hints and details about boundary conditions you may encounter check &lt;a href=&#34;:Boundaries&#34; title=&#34;wikilink&#34;&gt;this page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;By default every surface is assigned an adiabatic no-slip wall boundary condition.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;simulation-settings&#34;&gt;Simulation Settings&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Time scheme&lt;/em&gt;: drop down list from which the user has to select which type of simulation they want to perform in terms of behavior in time
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Transient&lt;/em&gt;: to setup a simulation where the focus is on how the flow changes in time, i.e. the quantities of interest are variable fluctuations over time&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Steady&lt;/em&gt;: to setup a simulation where the focus is on the final flow configuration, i.e. the converged steady solution that does not change anymore&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In case &lt;em&gt;Transient&lt;/em&gt; scheme is chosen&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Timestep&lt;/em&gt;: time accuracy defining the requested temporal resolution.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Final time&lt;/em&gt;: defines the final simulation time.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Output frequency&lt;/em&gt;: rules how often simulation results are saved.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In case &lt;em&gt;Steady&lt;/em&gt; scheme is chosen&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Number of iterations&lt;/em&gt;: number of iterations performed by the CFD solver. The higher the number, the more accurate the solution.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Output frequency&lt;/em&gt;: specifies how often simulation results are saved for the visualization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After completion of all fields, the user can finalize the step clicking on &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;CFD&lt;/strong&gt; step application that will appear in the &lt;em&gt;Case in progress&lt;/em&gt; section of the main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The CFD step usually requires a high number of iterations (few thousands) in order to produce accurate results.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.6. RESULTS</title>
+      <link>https://apalazzin.github.io/manual/results/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/results/</guid>
+      <description>&lt;p&gt;CONSELF offers a web based application to postprocess results. Have a look at the following video to check out the most important features of this web application.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/00ZZvxKnQ6s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/center&gt;
+Beside this tool, there are two more functionalities, highlighted in the picture: residual plot and results download. The first one displays the residuals of pressure and velocity fields obtained during the calculation, the latter instead allows to download the results in your local machine. This gives you access to advanced postprocessing functionalities with software such as &lt;a href=&#34;http://www.paraview.org/download/&#34;&gt;ParaView&lt;/a&gt;, available for Unix, Windows and OSx systems.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The file is downloaded in ZIP format, so uncompress it and open the &amp;quot;.case&amp;quot; file with the abovementioned Paraview.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Result_page.png&#34; alt=&#34;Postprocessing options available&#34; title=&#34;Postprocessing options available&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Contributing</title>
+      <link>https://apalazzin.github.io/contributing/</link>
+      <pubDate>Sat, 09 Apr 2016 16:58:30 +0200</pubDate>
+      
+      <guid>https://apalazzin.github.io/contributing/</guid>
+      <description>
+
+&lt;p&gt;To help the world to be a better place, you could :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Contribute to this doc by using &lt;em&gt;Edit this page&lt;/em&gt; link.&lt;/li&gt;
+&lt;li&gt;Contribute to &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, the static website generator which this theme is for&lt;/li&gt;
+&lt;li&gt;Contribute to &lt;a href=&#34;https://getgrav.org/&#34;&gt;Grav&lt;/a&gt;, the flat file CMS of which this theme is from (Thanks to MIT license)&lt;/li&gt;
+&lt;li&gt;Contribute to the &lt;a href=&#34;https://github.com/matcornic/hugo-theme-learn&#34;&gt;Hugo-theme-learn&lt;/a&gt; theme itself&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Handling more than 2 levels in documentation.&lt;/li&gt;
+&lt;li&gt;Search in site&lt;/li&gt;
+&lt;li&gt;Handling videos&lt;/li&gt;
+&lt;li&gt;Add optional button to create doc issue (like github)&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Pages</title>
+      <link>https://apalazzin.github.io/cont/pages/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://apalazzin.github.io/cont/pages/</guid>
+      <description>
+
+&lt;p&gt;In &lt;strong&gt;Hugo&lt;/strong&gt;, pages are the core of your site. Once it is configure, pages are definitely the added value to your documentation site.&lt;/p&gt;
+
+&lt;h2 id=&#34;folders&#34;&gt;Folders&lt;/h2&gt;
+
+&lt;p&gt;Organize your site like &lt;a href=&#34;https://gohugo.io/content/organization/&#34;&gt;any other Hugo project&lt;/a&gt;. Typically, you will have a &lt;em&gt;content&lt;/em&gt; folder with all your pages.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;.
+└── content
+    ├── brace
+    |   ├── yourselves.md   &amp;lt;- http://example.com/brace/yourselves/
+    |   ├── winter
+    |   |   └── index.md    &amp;lt;- http://example.com/brace/winter/
+    |   └── index.md        &amp;lt;- http://example.com/brace/
+    ├── is
+    |   ├── coming.md       &amp;lt;- http://example.com/is/comming/
+    |   └── index.md        &amp;lt;- http://example.com/is/
+    └── ned-stark.md        &amp;lt;- http://example.com/ned-stark/
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;At that time, &lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; supports &lt;strong&gt;only one level&lt;/strong&gt; inside a chapter. So you &lt;strong&gt;can&amp;rsquo;t&lt;/strong&gt; have &lt;a href=&#34;http://example.com/chapter1/chapter1.1/page&#34;&gt;http://example.com/chapter1/chapter1.1/page&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;types&#34;&gt;Types&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; defines two types of pages. &lt;em&gt;Default&lt;/em&gt; and &lt;em&gt;Chapter&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;A &lt;em&gt;Chapter&lt;/em&gt; is a page that contains another page. Commonly, it contains a simple title and a catch line to define content that can be found under it.
+You can define any HTML as prefix for the menu. In the example below, it&amp;rsquo;s just a number but that could be an &lt;a href=&#34;https://fortawesome.github.io/Font-Awesome/&#34;&gt;icon&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/pages-chapter.png?width=50%&#34; alt=&#34;Chapter page&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: Basics
+next: /basics/what-is-this-hugo-theme
+chapter: true
+weight: 0
+icon: &amp;quot;&amp;lt;b&amp;gt;1. &amp;lt;/b&amp;gt;&amp;quot;
+---
+
+### Chapter 1
+
+# Basics
+
+Discover what this Hugo theme is all about and the core-concepts behind it.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;A &lt;em&gt;Default&lt;/em&gt; page is any other content page.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/pages-default.png?width=50%&#34; alt=&#34;Chapter page&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+title: What is this Hugo theme ?
+prev: /basics
+next: /basics/requirements
+weight: 5
+---
+
+**Hugo-theme-learn** is a theme for [Hugo](https://gohugo.io/), a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this theme is fully designed for **technical documentation**.
+
+This theme is a partial porting of the [Learn theme](http://learn.getgrav.org/) of [Grav](https://getgrav.org/), a modern flat-file CMS written in PHP.
+
+This current documentation has been statically generated with Hugo with a simple command : `hugo -t hugo-theme-learn`
+
+![Grav Overview](images/grav-overview.png?width=60%)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;To tell &lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; to consider a page as a chapter, just set &lt;code&gt;chapter: true&lt;/code&gt; in the &lt;a href=&#34;#front-matter&#34;&gt;front-matter headers&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides &lt;a href=&#34;https://apalazzin.github.io/cont/archetypes&#34;&gt;archetypes&lt;/a&gt; to help you create this kind of pages.&lt;/p&gt;
+
+&lt;h2 id=&#34;front-matter&#34;&gt;Front Matter&lt;/h2&gt;
+
+&lt;p&gt;Each Hugo page has to define a &lt;a href=&#34;https://gohugo.io/content/front-matter/&#34;&gt;Front Matter&lt;/a&gt; in &lt;em&gt;yaml&lt;/em&gt;, &lt;em&gt;toml&lt;/em&gt; or &lt;em&gt;json&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; uses the following parameters on top of the existing ones :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;+++
+# Set to true, it automatically generates a table of contents, available in the top of the screen.
+toc = &amp;quot;false&amp;quot;
+# Path to previous page. If set, add a previous arrow button on page
+prev = &amp;quot;&amp;quot;
+# Path to next page. If set, add a next arrow on page
+next = &amp;quot;&amp;quot;
+# Set a page as chapter, in another words, a page that contains other pages. Changes the display and behavior of the page
+chapter = &amp;quot;false&amp;quot;
+# Set HTML in this parameter. The chapter title in the menu will be prefixed by this. Useful for icons.
+icon: &amp;quot;&amp;quot;
++++
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;ordering&#34;&gt;Ordering&lt;/h2&gt;
+
+&lt;p&gt;Hugo provides a &lt;a href=&#34;https://gohugo.io/content/ordering/&#34;&gt;flexible way&lt;/a&gt; to handle order for your pages.&lt;/p&gt;
+
+&lt;p&gt;The simplest way is to use &lt;code&gt;weight&lt;/code&gt; parameter in the front matter of your page.&lt;/p&gt;
+
+&lt;h3 id=&#34;menu-ordering&#34;&gt;Menu ordering&lt;/h3&gt;
+
+&lt;p&gt;If you don&amp;rsquo;t like generated menu ordering, which is done alphabetically by default, you
+can explicitly define sections ordering in &lt;code&gt;config.toml&lt;/code&gt;.&lt;/p&gt;
+
+&lt;p&gt;For site with following &lt;code&gt;tree content&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;content/
+├── about
+│   ├── content.md
+│   ├── index.md
+├── bar
+│   ├── index.md
+│   └── mode_bar.md
+├── foo
+│   ├── foo2.md
+│   └── index.md
+└── introduction
+    ├── index.md
+    └── blabla.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;You can set menu ordering as:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;about&lt;/li&gt;
+&lt;li&gt;introduction&lt;/li&gt;
+&lt;li&gt;foo&lt;/li&gt;
+&lt;li&gt;bar&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;all you need is to add menu definition in &lt;code&gt;config.toml&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[params]
+  menu = [ &amp;quot;about&amp;quot;, &amp;quot;introduction&amp;quot;, &amp;quot;foo&amp;quot;, &amp;quot;bar&amp;quot; ]
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>What is this Hugo theme ?</title>
+      <link>https://apalazzin.github.io/basics/what-is-this-hugo-theme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apalazzin.github.io/basics/what-is-this-hugo-theme/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; is a theme for &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt;, a fast and modern static website engine written in Go. Where Hugo is often used for blogs, this theme is fully designed for &lt;strong&gt;technical documentation&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;This theme is a partial porting of the &lt;a href=&#34;http://learn.getgrav.org/&#34;&gt;Learn theme&lt;/a&gt; of &lt;a href=&#34;https://getgrav.org/&#34;&gt;Grav&lt;/a&gt;, a modern flat-file CMS written in PHP.&lt;/p&gt;
+
+&lt;p&gt;This current documentation has been statically generated with Hugo with a simple command : &lt;code&gt;hugo -t hugo-theme-learn&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/grav-overview.png?width=60%&#34; alt=&#34;Grav Overview&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Requirements</title>
+      <link>https://apalazzin.github.io/basics/requirements/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apalazzin.github.io/basics/requirements/</guid>
+      <description>&lt;p&gt;Thanks to the simplicity of Hugo, this page is as empty as this theme needs requirements.&lt;/p&gt;
+
+&lt;p&gt;Just download &lt;a href=&#34;https://gohugo.io/overview/installing/&#34;&gt;Hugo&lt;/a&gt; binary for your OS (Windows, Linux, Mac) : it&amp;rsquo;s that simple.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/magic.gif?classes=shadow&#34; alt=&#34;Magic&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Markdown syntax</title>
+      <link>https://apalazzin.github.io/cont/markdown/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://apalazzin.github.io/cont/markdown/</guid>
+      <description>
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;This page is a shameful copy of the great &lt;a href=&#34;http://learn.getgrav.org/content/markdown&#34;&gt;Grav original page&lt;/a&gt;.
+Only difference is information about image customization (&lt;a href=&#34;#resizing-image&#34;&gt;resizing&lt;/a&gt;, &lt;a href=&#34;#add-css-classes&#34;&gt;add CSS classes&lt;/a&gt;&amp;hellip;)&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;Let&amp;rsquo;s face it: Writing content for the Web is tiresome. WYSIWYG editors help alleviate this task, but they generally result in horrible code, or worse yet, ugly web pages.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Markdown&lt;/strong&gt; is a better way to write &lt;strong&gt;HTML&lt;/strong&gt;, without all the complexities and ugliness that usually accompanies it.&lt;/p&gt;
+
+&lt;p&gt;Some of the key benefits are:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Markdown is simple to learn, with minimal extra characters so it&amp;rsquo;s also quicker to write content.&lt;/li&gt;
+&lt;li&gt;Less chance of errors when writing in markdown.&lt;/li&gt;
+&lt;li&gt;Produces valid XHTML output.&lt;/li&gt;
+&lt;li&gt;Keeps the content and the visual display separate, so you cannot mess up the look of your site.&lt;/li&gt;
+&lt;li&gt;Write in any text editor or Markdown application you like.&lt;/li&gt;
+&lt;li&gt;Markdown is a joy to use!&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;John Gruber, the author of Markdown, puts it like this:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;The overriding design goal for Markdown’s formatting syntax is to make it as readable as possible. The idea is that a Markdown-formatted document should be publishable as-is, as plain text, without looking like it’s been marked up with tags or formatting instructions. While Markdown’s syntax has been influenced by several existing text-to-HTML filters, the single biggest source of inspiration for Markdown’s syntax is the format of plain text email.
+&amp;ndash; &lt;cite&gt;John Gruber&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Grav ships with built-in support for &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; and &lt;a href=&#34;https://michelf.ca/projects/php-markdown/extra/&#34;&gt;Markdown Extra&lt;/a&gt;. You must enable &lt;strong&gt;Markdown Extra&lt;/strong&gt; in your &lt;code&gt;system.yaml&lt;/code&gt; configuration file&lt;/p&gt;
+
+&lt;p&gt;Without further delay, let us go over the main elements of Markdown and what the resulting HTML looks like:&lt;/p&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;&lt;i class=&#34;fa fa-bookmark&#34;&gt;&lt;/i&gt; Bookmark this page for easy future reference!&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;headings&#34;&gt;Headings&lt;/h2&gt;
+
+&lt;p&gt;Headings from &lt;code&gt;h1&lt;/code&gt; through &lt;code&gt;h6&lt;/code&gt; are constructed with a &lt;code&gt;#&lt;/code&gt; for each level:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# h1 Heading
+## h2 Heading
+### h3 Heading
+#### h4 Heading
+##### h5 Heading
+###### h6 Heading
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;h1 id=&#34;h1-heading&#34;&gt;h1 Heading&lt;/h1&gt;
+
+&lt;h2 id=&#34;h2-heading&#34;&gt;h2 Heading&lt;/h2&gt;
+
+&lt;h3 id=&#34;h3-heading&#34;&gt;h3 Heading&lt;/h3&gt;
+
+&lt;h4 id=&#34;h4-heading&#34;&gt;h4 Heading&lt;/h4&gt;
+
+&lt;h5 id=&#34;h5-heading&#34;&gt;h5 Heading&lt;/h5&gt;
+
+&lt;h6 id=&#34;h6-heading&#34;&gt;h6 Heading&lt;/h6&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;h1&amp;gt;h1 Heading&amp;lt;/h1&amp;gt;
+&amp;lt;h2&amp;gt;h2 Heading&amp;lt;/h2&amp;gt;
+&amp;lt;h3&amp;gt;h3 Heading&amp;lt;/h3&amp;gt;
+&amp;lt;h4&amp;gt;h4 Heading&amp;lt;/h4&amp;gt;
+&amp;lt;h5&amp;gt;h5 Heading&amp;lt;/h5&amp;gt;
+&amp;lt;h6&amp;gt;h6 Heading&amp;lt;/h6&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;comments&#34;&gt;Comments&lt;/h2&gt;
+
+&lt;p&gt;Comments should be HTML compatible&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;!--
+This is a comment
+--&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Comment below should &lt;strong&gt;NOT&lt;/strong&gt; be seen:&lt;/p&gt;
+
+&lt;!--
+This is a comment
+--&gt;
+
+&lt;h2 id=&#34;horizontal-rules&#34;&gt;Horizontal Rules&lt;/h2&gt;
+
+&lt;p&gt;The HTML &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; element is for creating a &amp;ldquo;thematic break&amp;rdquo; between paragraph-level elements. In markdown, you can create a &lt;code&gt;&amp;lt;hr&amp;gt;&lt;/code&gt; with any of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;___&lt;/code&gt;: three consecutive underscores&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;---&lt;/code&gt;: three consecutive dashes&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;***&lt;/code&gt;: three consecutive asterisks&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;renders to:&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;body-copy&#34;&gt;Body Copy&lt;/h2&gt;
+
+&lt;p&gt;Body copy written as normal, plain text will be wrapped with &lt;code&gt;&amp;lt;p&amp;gt;&amp;lt;/p&amp;gt;&lt;/code&gt; tags in the rendered HTML.&lt;/p&gt;
+
+&lt;p&gt;So this body copy:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders to this HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;p&amp;gt;Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;emphasis&#34;&gt;Emphasis&lt;/h2&gt;
+
+&lt;h3 id=&#34;bold&#34;&gt;Bold&lt;/h3&gt;
+
+&lt;p&gt;For emphasizing a snippet of text with a heavier font-weight.&lt;/p&gt;
+
+&lt;p&gt;The following snippet of text is &lt;strong&gt;rendered as bold text&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;**rendered as bold text**
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders to:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;rendered as bold text&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;and this HTML&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;strong&amp;gt;rendered as bold text&amp;lt;/strong&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;italics&#34;&gt;Italics&lt;/h3&gt;
+
+&lt;p&gt;For emphasizing a snippet of text with italics.&lt;/p&gt;
+
+&lt;p&gt;The following snippet of text is &lt;em&gt;rendered as italicized text&lt;/em&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;_rendered as italicized text_
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders to:&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;rendered as italicized text&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;and this HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;em&amp;gt;rendered as italicized text&amp;lt;/em&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;strikethrough&#34;&gt;strikethrough&lt;/h3&gt;
+
+&lt;p&gt;In GFM (GitHub flavored Markdown) you can do strikethroughs.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;~~Strike through this text.~~
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Which renders to:&lt;/p&gt;
+
+&lt;p&gt;&lt;del&gt;Strike through this text.&lt;/del&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;del&amp;gt;Strike through this text.&amp;lt;/del&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;blockquotes&#34;&gt;Blockquotes&lt;/h2&gt;
+
+&lt;p&gt;For quoting blocks of content from another source within your document.&lt;/p&gt;
+
+&lt;p&gt;Add &lt;code&gt;&amp;gt;&lt;/code&gt; before any text you want to quote.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;gt; **Fusion Drive** combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Fusion Drive&lt;/strong&gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;and this HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;blockquote&amp;gt;
+  &amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Fusion Drive&amp;lt;/strong&amp;gt; combines a hard drive with a flash storage (solid-state drive) and presents it as a single logical volume with the space of both drives combined.&amp;lt;/p&amp;gt;
+&amp;lt;/blockquote&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Blockquotes can also be nested:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;&amp;gt; Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
+Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+&amp;gt;&amp;gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Donec massa lacus, ultricies a ullamcorper in, fermentum sed augue.
+Nunc augue augue, aliquam non hendrerit ac, commodo vel nisi.
+&amp;gt; Sed adipiscing elit vitae augue consectetur a gravida nunc vehicula. Donec auctor
+odio non est accumsan facilisis. Aliquam id turpis in dolor tincidunt mollis ac eu diam.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;notices&#34;&gt;Notices&lt;/h2&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The old mechanism for notices overriding the block quote syntax (&lt;code&gt;&amp;gt;&amp;gt;&amp;gt;&lt;/code&gt;) has been deprecated.  Notices are now handled via a dedicated plugin called &lt;a href=&#34;https://github.com/getgrav/grav-plugin-markdown-notices&#34;&gt;Markdown Notices&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;lists&#34;&gt;Lists&lt;/h2&gt;
+
+&lt;h3 id=&#34;unordered&#34;&gt;Unordered&lt;/h3&gt;
+
+&lt;p&gt;A list of items in which the order of the items does not explicitly matter.&lt;/p&gt;
+
+&lt;p&gt;You may use any of the following symbols to denote bullets for each list item:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;* valid bullet
+- valid bullet
++ valid bullet
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For example&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;+ Lorem ipsum dolor sit amet
++ Consectetur adipiscing elit
++ Integer molestie lorem at massa
++ Facilisis in pretium nisl aliquet
++ Nulla volutpat aliquam velit
+  - Phasellus iaculis neque
+  - Purus sodales ultricies
+  - Vestibulum laoreet porttitor sem
+  - Ac tristique libero volutpat at
++ Faucibus porta lacus fringilla vel
++ Aenean sit amet erat nunc
++ Eget porttitor lorem
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+&lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
+&lt;li&gt;Nulla volutpat aliquam velit
+
+&lt;ul&gt;
+&lt;li&gt;Phasellus iaculis neque&lt;/li&gt;
+&lt;li&gt;Purus sodales ultricies&lt;/li&gt;
+&lt;li&gt;Vestibulum laoreet porttitor sem&lt;/li&gt;
+&lt;li&gt;Ac tristique libero volutpat at&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Faucibus porta lacus fringilla vel&lt;/li&gt;
+&lt;li&gt;Aenean sit amet erat nunc&lt;/li&gt;
+&lt;li&gt;Eget porttitor lorem&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And this HTML&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;ul&amp;gt;
+  &amp;lt;li&amp;gt;Lorem ipsum dolor sit amet&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Consectetur adipiscing elit&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Integer molestie lorem at massa&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Facilisis in pretium nisl aliquet&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Nulla volutpat aliquam velit
+    &amp;lt;ul&amp;gt;
+      &amp;lt;li&amp;gt;Phasellus iaculis neque&amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;Purus sodales ultricies&amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;Vestibulum laoreet porttitor sem&amp;lt;/li&amp;gt;
+      &amp;lt;li&amp;gt;Ac tristique libero volutpat at&amp;lt;/li&amp;gt;
+    &amp;lt;/ul&amp;gt;
+  &amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Faucibus porta lacus fringilla vel&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Aenean sit amet erat nunc&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Eget porttitor lorem&amp;lt;/li&amp;gt;
+&amp;lt;/ul&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;ordered&#34;&gt;Ordered&lt;/h3&gt;
+
+&lt;p&gt;A list of items in which the order of items does explicitly matter.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. Lorem ipsum dolor sit amet
+2. Consectetur adipiscing elit
+3. Integer molestie lorem at massa
+4. Facilisis in pretium nisl aliquet
+5. Nulla volutpat aliquam velit
+6. Faucibus porta lacus fringilla vel
+7. Aenean sit amet erat nunc
+8. Eget porttitor lorem
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+&lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
+&lt;li&gt;Nulla volutpat aliquam velit&lt;/li&gt;
+&lt;li&gt;Faucibus porta lacus fringilla vel&lt;/li&gt;
+&lt;li&gt;Aenean sit amet erat nunc&lt;/li&gt;
+&lt;li&gt;Eget porttitor lorem&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;And this HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;ol&amp;gt;
+  &amp;lt;li&amp;gt;Lorem ipsum dolor sit amet&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Consectetur adipiscing elit&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Integer molestie lorem at massa&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Facilisis in pretium nisl aliquet&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Nulla volutpat aliquam velit&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Faucibus porta lacus fringilla vel&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Aenean sit amet erat nunc&amp;lt;/li&amp;gt;
+  &amp;lt;li&amp;gt;Eget porttitor lorem&amp;lt;/li&amp;gt;
+&amp;lt;/ol&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;TIP&lt;/strong&gt;: If you just use &lt;code&gt;1.&lt;/code&gt; for each number, Markdown will automatically number each item. For example:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;1. Lorem ipsum dolor sit amet
+1. Consectetur adipiscing elit
+1. Integer molestie lorem at massa
+1. Facilisis in pretium nisl aliquet
+1. Nulla volutpat aliquam velit
+1. Faucibus porta lacus fringilla vel
+1. Aenean sit amet erat nunc
+1. Eget porttitor lorem
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Lorem ipsum dolor sit amet&lt;/li&gt;
+&lt;li&gt;Consectetur adipiscing elit&lt;/li&gt;
+&lt;li&gt;Integer molestie lorem at massa&lt;/li&gt;
+&lt;li&gt;Facilisis in pretium nisl aliquet&lt;/li&gt;
+&lt;li&gt;Nulla volutpat aliquam velit&lt;/li&gt;
+&lt;li&gt;Faucibus porta lacus fringilla vel&lt;/li&gt;
+&lt;li&gt;Aenean sit amet erat nunc&lt;/li&gt;
+&lt;li&gt;Eget porttitor lorem&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&#34;code&#34;&gt;Code&lt;/h2&gt;
+
+&lt;h3 id=&#34;inline-code&#34;&gt;Inline code&lt;/h3&gt;
+
+&lt;p&gt;Wrap inline snippets of code with &lt;code&gt;`&lt;/code&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;In this example, `&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;` should be wrapped as **code**.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;p&gt;In this example, &lt;code&gt;&amp;lt;section&amp;gt;&amp;lt;/section&amp;gt;&lt;/code&gt; should be wrapped with &lt;strong&gt;code&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;p&amp;gt;In this example, &amp;lt;code&amp;gt;&amp;amp;lt;section&amp;amp;gt;&amp;amp;lt;/section&amp;amp;gt;&amp;lt;/code&amp;gt; should be wrapped with &amp;lt;strong&amp;gt;code&amp;lt;/strong&amp;gt;.&amp;lt;/p&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;indented-code&#34;&gt;Indented code&lt;/h3&gt;
+
+&lt;p&gt;Or indent several lines of code by at least four spaces, as in:&lt;/p&gt;
+
+&lt;pre&gt;
+  // Some comments
+  line 1 of code
+  line 2 of code
+  line 3 of code
+&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;// Some comments
+line 1 of code
+line 2 of code
+line 3 of code
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;pre&amp;gt;
+  &amp;lt;code&amp;gt;
+    // Some comments
+    line 1 of code
+    line 2 of code
+    line 3 of code
+  &amp;lt;/code&amp;gt;
+&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;block-code-fences&#34;&gt;Block code &amp;ldquo;fences&amp;rdquo;&lt;/h3&gt;
+
+&lt;p&gt;Use &amp;ldquo;fences&amp;rdquo;  &lt;code&gt;```&lt;/code&gt; to block in multiple lines of code.&lt;/p&gt;
+
+&lt;pre&gt;
+``` markup
+Sample text here...
+```
+&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code&gt;Sample text here...
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;pre&amp;gt;
+  &amp;lt;code&amp;gt;Sample text here...&amp;lt;/code&amp;gt;
+&amp;lt;/pre&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;syntax-highlighting&#34;&gt;Syntax highlighting&lt;/h3&gt;
+
+&lt;p&gt;GFM, or &amp;ldquo;GitHub Flavored Markdown&amp;rdquo; also supports syntax highlighting. To activate it, simply add the file extension of the language you want to use directly after the first code &amp;ldquo;fence&amp;rdquo;, `&lt;code&gt;js&lt;/code&gt;, and syntax highlighting will automatically be applied in the rendered HTML. For example, to apply syntax highlighting to JavaScript code:&lt;/p&gt;
+
+&lt;pre&gt;
+```js
+grunt.initConfig({
+  assemble: {
+    options: {
+      assets: &#39;docs/assets&#39;,
+      data: &#39;src/data/*.{json,yml}&#39;,
+      helpers: &#39;src/custom-helpers.js&#39;,
+      partials: [&#39;src/partials/**/*.{hbs,md}&#39;]
+    },
+    pages: {
+      options: {
+        layout: &#39;default.hbs&#39;
+      },
+      files: {
+        &#39;./&#39;: [&#39;src/templates/pages/index.hbs&#39;]
+      }
+    }
+  }
+};
+```
+&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-js&#34;&gt;grunt.initConfig({
+  assemble: {
+    options: {
+      assets: &#39;docs/assets&#39;,
+      data: &#39;src/data/*.{json,yml}&#39;,
+      helpers: &#39;src/custom-helpers.js&#39;,
+      partials: [&#39;src/partials/**/*.{hbs,md}&#39;]
+    },
+    pages: {
+      options: {
+        layout: &#39;default.hbs&#39;
+      },
+      files: {
+        &#39;./&#39;: [&#39;src/templates/pages/index.hbs&#39;]
+      }
+    }
+  }
+};
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;tables&#34;&gt;Tables&lt;/h2&gt;
+
+&lt;p&gt;Tables are created by adding pipes as dividers between each cell, and by adding a line of dashes (also separated by bars) beneath the header. Note that the pipes do not need to be vertically aligned.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| Option | Description |
+| ------ | ----------- |
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to:&lt;/p&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Option&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;data&lt;/td&gt;
+&lt;td&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;engine&lt;/td&gt;
+&lt;td&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;ext&lt;/td&gt;
+&lt;td&gt;extension to be used for dest files.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;And this HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;table&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;th&amp;gt;Option&amp;lt;/th&amp;gt;
+    &amp;lt;th&amp;gt;Description&amp;lt;/th&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td&amp;gt;data&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;path to data files to supply the data that will be passed into templates.&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td&amp;gt;engine&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;engine to be used for processing templates. Handlebars is the default.&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+  &amp;lt;tr&amp;gt;
+    &amp;lt;td&amp;gt;ext&amp;lt;/td&amp;gt;
+    &amp;lt;td&amp;gt;extension to be used for dest files.&amp;lt;/td&amp;gt;
+  &amp;lt;/tr&amp;gt;
+&amp;lt;/table&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;right-aligned-text&#34;&gt;Right aligned text&lt;/h3&gt;
+
+&lt;p&gt;Adding a colon on the right side of the dashes below any heading will right align text for that column.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;| Option | Description |
+| ------:| -----------:|
+| data   | path to data files to supply the data that will be passed into templates. |
+| engine | engine to be used for processing templates. Handlebars is the default. |
+| ext    | extension to be used for dest files. |
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;right&#34;&gt;Option&lt;/th&gt;
+&lt;th align=&#34;right&#34;&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;data&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;path to data files to supply the data that will be passed into templates.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;engine&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;engine to be used for processing templates. Handlebars is the default.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td align=&#34;right&#34;&gt;ext&lt;/td&gt;
+&lt;td align=&#34;right&#34;&gt;extension to be used for dest files.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h2 id=&#34;links&#34;&gt;Links&lt;/h2&gt;
+
+&lt;h3 id=&#34;basic-link&#34;&gt;Basic link&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;[Assemble](http://assemble.io)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to (hover over the link, there is no tooltip):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;http://assemble.io&#34;&gt;Assemble&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;a href=&amp;quot;http://assemble.io&amp;quot;&amp;gt;Assemble&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;add-a-title&#34;&gt;Add a title&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;[Upstage](https://github.com/upstage/ &amp;quot;Visit Upstage!&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Renders to (hover over the link, there should be a tooltip):&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/upstage/&#34; title=&#34;Visit Upstage!&#34;&gt;Upstage&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;HTML:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;a href=&amp;quot;https://github.com/upstage/&amp;quot; title=&amp;quot;Visit Upstage!&amp;quot;&amp;gt;Upstage&amp;lt;/a&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;named-anchors&#34;&gt;Named Anchors&lt;/h3&gt;
+
+&lt;p&gt;Named anchors enable you to jump to the specified anchor point on the same page. For example, each of these chapters:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;# Table of Contents
+  * [Chapter 1](#chapter-1)
+  * [Chapter 2](#chapter-2)
+  * [Chapter 3](#chapter-3)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;will jump to these sections:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;## Chapter 1 &amp;lt;a id=&amp;quot;chapter-1&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+Content for chapter one.
+
+## Chapter 2 &amp;lt;a id=&amp;quot;chapter-2&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+Content for chapter one.
+
+## Chapter 3 &amp;lt;a id=&amp;quot;chapter-3&amp;quot;&amp;gt;&amp;lt;/a&amp;gt;
+Content for chapter one.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTE&lt;/strong&gt; that specific placement of the anchor tag seems to be arbitrary. They are placed inline here since it seems to be unobtrusive, and it works.&lt;/p&gt;
+
+&lt;h2 id=&#34;images&#34;&gt;Images&lt;/h2&gt;
+
+&lt;p&gt;Images have a similar syntax to links but include a preceding exclamation point.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Minion](http://octodex.github.com/images/minion.png)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/minion.png&#34; alt=&#34;Minion&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Alt text](http://octodex.github.com/images/stormtroopocat.jpg &amp;quot;The Stormtroopocat&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/stormtroopocat.jpg&#34; alt=&#34;Alt text&#34; title=&#34;The Stormtroopocat&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Like links, Images also have a footnote style syntax&lt;/p&gt;
+
+&lt;h3 id=&#34;alternative-usage-note-images&#34;&gt;Alternative usage : note images&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Alt text][id]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/dojocat.jpg&#34; alt=&#34;Alt text&#34; title=&#34;The Dojocat&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;With a reference later in the document defining the URL location:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;[id]: http://octodex.github.com/images/dojocat.jpg  &amp;quot;The Dojocat&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;resizing-image&#34;&gt;Resizing image&lt;/h3&gt;
+
+&lt;p&gt;Add HTTP parameters &lt;code&gt;width&lt;/code&gt; and/or &lt;code&gt;height&lt;/code&gt; to the link image to resize the image. Values are CSS values (default is &lt;code&gt;auto&lt;/code&gt;).&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Minion](http://octodex.github.com/images/minion.png?width=20%)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/minion.png?width=20%&#34; alt=&#34;Minion&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Minion](http://octodex.github.com/images/minion.png?height=50px)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/minion.png?height=50px&#34; alt=&#34;Minion&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![Minion](http://octodex.github.com/images/minion.png?height=50px&amp;amp;width=300px)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/minion.png?height=50px&amp;amp;width=300px&#34; alt=&#34;Minion&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;add-css-classes&#34;&gt;Add CSS classes&lt;/h3&gt;
+
+&lt;p&gt;Add a HTTP &lt;code&gt;classes&lt;/code&gt; parameter to the link image to add CSS classes. &lt;code&gt;shadow&lt;/code&gt;and &lt;code&gt;border&lt;/code&gt; are available but you could define other ones.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![stormtroopocat](http://octodex.github.com/images/stormtroopocat.jpg?classes=shadow)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/stormtroopocat.jpg?width=40%&amp;amp;classes=shadow&#34; alt=&#34;stormtroopocat&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![stormtroopocat](http://octodex.github.com/images/stormtroopocat.jpg?classes=border)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/stormtroopocat.jpg?width=40%&amp;amp;classes=border&#34; alt=&#34;stormtroopocat&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-markdown&#34;&gt;![stormtroopocat](http://octodex.github.com/images/stormtroopocat.jpg?classes=border,shadow)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://octodex.github.com/images/stormtroopocat.jpg?width=40%&amp;amp;classes=border,shadow&#34; alt=&#34;stormtroopocat&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting started</title>
+      <link>https://apalazzin.github.io/basics/installation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apalazzin.github.io/basics/installation/</guid>
+      <description>
+
+&lt;p&gt;The following steps are here to help you initialize your new website. If you don&amp;rsquo;t know Hugo at all, we strongly suggest you to train by following this &lt;a href=&#34;https://gohugo.io/overview/quickstart/&#34;&gt;great documentation for beginners&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;create-your-project&#34;&gt;Create your project&lt;/h2&gt;
+
+&lt;p&gt;Hugo provides a &lt;code&gt;new&lt;/code&gt; command to create a new website.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new site &amp;lt;new_project&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;install-the-theme&#34;&gt;Install the theme&lt;/h2&gt;
+
+&lt;p&gt;Install the &lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; theme by following &lt;a href=&#34;https://gohugo.io/themes/installing/&#34;&gt;this documentation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The theme&amp;rsquo;s repository is: &lt;a href=&#34;https://github.com/matcornic/hugo-theme-learn.git&#34;&gt;https://github.com/matcornic/hugo-theme-learn.git&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;basic-configuration&#34;&gt;Basic configuration&lt;/h2&gt;
+
+&lt;p&gt;When building the website, you can set a theme by using &lt;code&gt;--theme&lt;/code&gt; option. We suggest you to edit your configuration file and set the theme by default. Example with &lt;code&gt;config.toml&lt;/code&gt; format.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;theme = &amp;quot;hugo-theme-learn&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-your-first-chapter-page&#34;&gt;Create your first chapter page&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides archetypes to create skeletons for your website. Begin by creating your first chapter page with the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new --kind chapter basics/index.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;create-your-first-content-pages&#34;&gt;Create your first content pages&lt;/h2&gt;
+
+&lt;p&gt;Then, create content pages inside the previous chapter. Here are two ways to create content in the chapter :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo new basics/first-content.md
+hugo new basics/second-content/index.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;enable-search-functionality&#34;&gt;Enable search functionality&lt;/h2&gt;
+
+&lt;p&gt;As the index generation is not yet supported by Hugo (&lt;a href=&#34;https://github.com/spf13/hugo/pull/1853&#34;&gt;PR #1853&lt;/a&gt;),
+we decided to use &lt;code&gt;lunr&lt;/code&gt; index.
+As soon as the generation of the index will be supported by hugo, we will use the official format.&lt;/p&gt;
+
+&lt;p&gt;So to use the &lt;code&gt;search&lt;/code&gt; functionality, you just have to put a &lt;code&gt;lunr&lt;/code&gt; index which respects this format :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-json&#34;&gt;[
+    {
+        &amp;quot;uri&amp;quot;: &amp;quot;/docs/01-start/index&amp;quot;,
+        &amp;quot;title&amp;quot;: &amp;quot;Get started&amp;quot;,
+        &amp;quot;content&amp;quot;: &amp;quot;\n\nGet started\n\nAll you need to know...\n&amp;quot;,
+        &amp;quot;tags&amp;quot;: [&amp;quot;start&amp;quot;, &amp;quot;intro&amp;quot;]
+    },
+    ...
+]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;into a &lt;code&gt;static/json/search.json&lt;/code&gt; file in your hugo project.&lt;/p&gt;
+
+&lt;p&gt;And set &lt;code&gt;search = true&lt;/code&gt; in your config.toml&lt;/p&gt;
+
+&lt;p&gt;To generate your lunr index, you can see this project &lt;a href=&#34;https://github.com/gwleclerc/lunr-hugo&#34;&gt;https://github.com/gwleclerc/lunr-hugo&lt;/a&gt; which parse your markdown files and extract toml and yaml headers to create index with corresponding format.&lt;/p&gt;
+
+&lt;p&gt;In order to generate the index of your static site launch the following comand after installing &lt;code&gt;lunr-hugo&lt;/code&gt; using &lt;code&gt;npm&lt;/code&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;    lunr-hugo -i &amp;quot;&amp;lt;content directory&amp;gt;/**/*.md&amp;quot; -o static/json/search.json -l &amp;lt;header format (yaml or toml)&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;launching-the-website&#34;&gt;Launching the website&lt;/h2&gt;
+
+&lt;p&gt;Launch the following command&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;hugo serve
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Go to &lt;code&gt;http://localhost:1313/basics&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you are curious, at the home page (&lt;a href=&#34;http://localhost:1313/&#34;&gt;http://localhost:1313/&lt;/a&gt;), you should see an empty homepage. It&amp;rsquo;s because this theme does not really provide a default homepage.&lt;/p&gt;
+
+&lt;p&gt;You typically have 2 choices :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create an &lt;a href=&#34;https://gohugo.io/templates/homepage/&#34;&gt;overview homepage&lt;/a&gt; for your project. Write an &lt;code&gt;index.html&lt;/code&gt; file in &lt;em&gt;layouts/&lt;/em&gt; folder.&lt;/li&gt;
+&lt;li&gt;Create a redirection to one your documentation page. Either by:
+
+&lt;ol&gt;
+&lt;li&gt;Configuring your server to automatically redirect homepage to one your documentation page - &lt;em&gt;Recommended&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Creating an empty html page with the following code in the head tag :&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;  &amp;lt;meta http-equiv=&amp;quot;refresh&amp;quot; content=&amp;quot;0; url=http://example.com/&amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Configuration</title>
+      <link>https://apalazzin.github.io/basics/configuration/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://apalazzin.github.io/basics/configuration/</guid>
+      <description>
+
+&lt;h2 id=&#34;site-configuration&#34;&gt;Site configuration&lt;/h2&gt;
+
+&lt;p&gt;On top of &lt;a href=&#34;https://gohugo.io/overview/configuration/&#34;&gt;Hugo global configuration&lt;/a&gt;, &lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; lets you define the following parameters :&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-toml&#34;&gt;[params]
+  # Prefix URL to edit current page. Useful to give opportunity to people to create merge request for your doc.
+  # See the config.toml file from this documentation site to have an example.
+  editURL = &amp;quot;&amp;quot;
+  # Author of the site, will be used in meta information
+  author = &amp;quot;&amp;quot;
+  # Description of the site, will be used in meta information
+  description = &amp;quot;&amp;quot;
+  # Shows a checkmark for visited pages on the menu. Default to false
+  showVisitedLinks = false
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;Assets are based on the &lt;code&gt;baseurl&lt;/code&gt; of the site. So, don&amp;rsquo;t forget to configure yours in the &lt;code&gt;config.toml&lt;/code&gt; file. Absolutely needed for Github pages like &lt;a href=&#34;http://userid.github.io/project&#34;&gt;http://userid.github.io/project&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;style-customization&#34;&gt;Style customization&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; has been built to be as configurable as possible by defining multiple &lt;a href=&#34;https://gohugo.io/templates/partials/&#34;&gt;partials&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;In &lt;code&gt;themes/hugo-theme-learn/layouts/partials/&lt;/code&gt;, you will find all the partials defined for this theme. If you need to overwrite something, don&amp;rsquo;t change the code directly. Instead &lt;a href=&#34;https://gohugo.io/themes/customizing/&#34;&gt;follow this page&lt;/a&gt;. You&amp;rsquo;d create a new partial in the &lt;code&gt;layouts/partials&lt;/code&gt; folder of your local project. This partial will have the priority.&lt;/p&gt;
+
+&lt;p&gt;This theme defines the following partials :&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;header&lt;/em&gt;: the header of the content page (contains the breadcrumbs)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;style&lt;/em&gt;: CSS imports, in case you want to override the style&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;footer&lt;/em&gt;: the footer of the content page (contains the arrows)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;script&lt;/em&gt;:  Javacript includes, in case you want to add Javascript on top of provided ones&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;favicon&lt;/em&gt;: the favicon&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;logo&lt;/em&gt;: the logo, on top left hand corner.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;meta&lt;/em&gt;: HTML meta tags, if you want to change default behavior&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;toc&lt;/em&gt;: table of contents&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;change-the-logo&#34;&gt;Change the logo&lt;/h3&gt;
+
+&lt;p&gt;Create a new file in &lt;code&gt;layouts/partials/&lt;/code&gt; named &lt;code&gt;logo.html&lt;/code&gt;. Then write any HTML you want.
+You could use an &lt;code&gt;img&lt;/code&gt; HTML tag and reference an image created under the &lt;em&gt;static&lt;/em&gt; folder, or you could paste a SVG definition !&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;The size of the logo will adapt automatically&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;change-the-favicon&#34;&gt;Change the favicon&lt;/h3&gt;
+
+&lt;p&gt;If your favicon is a png, just drop off your image in your local &lt;code&gt;static/images/&lt;/code&gt; folder and names it &lt;code&gt;favicon.png&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;If you need to change this default behavior, create a new file in &lt;code&gt;layouts/partials/&lt;/code&gt; named &lt;code&gt;favicon.html&lt;/code&gt;. Then write something like this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link rel=&amp;quot;shortcut icon&amp;quot; href=&amp;quot;/images/favicon.png&amp;quot; type=&amp;quot;image/x-icon&amp;quot; /&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;change-default-colors&#34;&gt;Change default colors&lt;/h3&gt;
+
+&lt;p&gt;To change default colors, you will have to add a new css file. In order to do that :&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Create a css file in your local &lt;code&gt;static/css/&lt;/code&gt; folder&lt;/li&gt;
+&lt;li&gt;Create a partial HTML in your local &lt;code&gt;layouts/partials/&lt;/code&gt; named &lt;code&gt;style.html&lt;/code&gt; and add the following line&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;link href=&amp;quot;/css/yourfile.css&amp;quot; rel=&amp;quot;stylesheet&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then, create CSS in the new file, overwriting default behavior. Don&amp;rsquo;t panic, we give you, just below, colors that are commonly changed.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-css&#34;&gt;/* background behind the logo*/
+#header {
+    background: &amp;lt;color&amp;gt;;
+    border-color: &amp;lt;color&amp;gt;;
+}
+
+/* Background color of the menu */
+#sidebar {
+  background-color: &amp;lt;color&amp;gt;;
+}
+
+/* Background color of the menu, when clicked */
+#sidebar ul.topics &amp;gt; li.parent, #sidebar ul.topics &amp;gt; li.active {
+  background-color: &amp;lt;color&amp;gt;;
+}
+
+/* Color of all links, including arrows to get to previous and next pages */
+a {
+    color: &amp;lt;color&amp;gt;;
+}
+a:hover {
+   color: &amp;lt;color&amp;gt;;
+}
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Shortcodes</title>
+      <link>https://apalazzin.github.io/cont/shortcodes/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://apalazzin.github.io/cont/shortcodes/</guid>
+      <description>
+
+&lt;p&gt;Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.&lt;/p&gt;
+
+&lt;p&gt;But this happens to be a bad idea. Everyone uses Markdown because it&amp;rsquo;s pure and simple to read even non-rendered. You should avoid HTML to keep it as simple as possible.&lt;/p&gt;
+
+&lt;p&gt;To avoid this limitations, Hugo created &lt;a href=&#34;https://gohugo.io/extras/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. A shortcode is a simple snippet inside a page.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides multiple shortcodes on top of existing ones.&lt;/p&gt;
+
+&lt;h2 id=&#34;notice&#34;&gt;Notice&lt;/h2&gt;
+
+&lt;p&gt;The notice shortcode shows 4 types of disclaimers to help you structure your page.&lt;/p&gt;
+
+&lt;h3 id=&#34;note&#34;&gt;Note&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% notice note %}}
+A notice disclaimer
+{{% /notice %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;A notice disclaimer&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;info&#34;&gt;Info&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% notice info %}}
+An information disclaimer
+{{% /notice %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;An information disclaimer&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;tip&#34;&gt;Tip&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% notice tip %}}
+A tip disclaimer
+{{% /notice %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;div class=&#34;notices tip&#34; &gt;&lt;p&gt;A tip disclaimer&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h3 id=&#34;warning&#34;&gt;Warning&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% notice warning %}}
+An warning disclaimer
+{{% /notice %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;renders as&lt;/p&gt;
+
+&lt;div class=&#34;notices warning&#34; &gt;&lt;p&gt;A warning disclaimer&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;button&#34;&gt;Button&lt;/h2&gt;
+
+&lt;p&gt;Button is a just a clickable button with optional icon.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;{{% button href=&amp;quot;https://getgrav.org/&amp;quot; %}}Get Grav{{% /button %}}
+{{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fa fa-play&amp;quot; %}}Get Grav with icon{{% /button %}}
+{{% button href=&amp;quot;https://getgrav.org/&amp;quot; icon=&amp;quot;fa fa-share&amp;quot; icon-position=&amp;quot;right&amp;quot; %}}Get Grav with icon right{{% /button %}}
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;a  href=&#34;https://getgrav.org/&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+  Get Grav
+  
+&lt;/a&gt;
+
+&lt;a  href=&#34;https://getgrav.org/&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+    
+  &lt;i class=&#34;fa fa-play&#34;&gt;&lt;/i&gt;
+    
+  
+  Get Grav with icon
+  
+&lt;/a&gt;
+
+&lt;a  href=&#34;https://getgrav.org/&#34; target=&#34;_blank&#34;  class=&#34;btn btn-default&#34;&gt;
+  
+  
+  
+    
+  
+  Get Grav with icon right
+  
+  &lt;i class=&#34;fa fa-share&#34;&gt;&lt;/i&gt;
+  
+&lt;/a&gt;
+&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Archetypes</title>
+      <link>https://apalazzin.github.io/cont/archetypes/</link>
+      <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
+      
+      <guid>https://apalazzin.github.io/cont/archetypes/</guid>
+      <description>
+
+&lt;p&gt;Using the command: &lt;code&gt;hugo new [relative new content path]&lt;/code&gt;, you can start a content file with the date and title automatically set. While this is a welcome feature, active writers need more : &lt;a href=&#34;https://gohugo.io/content/archetypes/&#34;&gt;archetypes&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is pre-configured skeleton pages with default front matter. Please refer to the &lt;a href=&#34;https://apalazzin.github.io/cont/pages/#types&#34;&gt;documentation&lt;/a&gt; for types of page to understand the differences.&lt;/p&gt;
+
+&lt;h2 id=&#34;chapter&#34;&gt;Chapter&lt;/h2&gt;
+
+&lt;p&gt;To create a Chapter page, run either one of the following commands&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Either
+hugo new --kind chapter &amp;lt;name&amp;gt;/index.md
+# Or
+hugo new --kind chapter &amp;lt;name&amp;gt;.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It will create a page with predefined Front-Matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+chapter: true
+date: 2016-04-10T23:17:49+02:00
+icon: &amp;lt;b&amp;gt;X. &amp;lt;/b&amp;gt;
+next: /next/path
+prev: /prev/path
+title: index
+weight: 0
+---
+
+### Chapter X
+
+# Some Chapter title
+
+Lorem ipsum
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;default&#34;&gt;Default&lt;/h2&gt;
+
+&lt;p&gt;To create a default page, run either one of the following commands&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Either
+hugo new &amp;lt;chapter&amp;gt;/&amp;lt;name&amp;gt;/index.md
+# Or
+hugo new &amp;lt;chapter&amp;gt;/&amp;lt;name&amp;gt;.md
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;It will create a page with predefined Front-Matter:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;---
+date: 2016-04-09T17:51:50+02:00
+next: /next/path
+prev: /prev/path
+title: index
+toc: true
+weight: 5
+---
+
+Lorem Ipsum
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t forget that Hugo-theme-learn supports only one level under a chapter&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

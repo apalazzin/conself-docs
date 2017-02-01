@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Manuals on Hugo Learn Theme</title>
+    <link>https://apalazzin.github.io/manual/index.xml</link>
+    <description>Recent content in Manuals on Hugo Learn Theme</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 26 Jan 2017 18:56:30 +0100</lastBuildDate>
+    <atom:link href="https://apalazzin.github.io/manual/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Some Chapter title</title>
+      <link>https://apalazzin.github.io/manual/</link>
+      <pubDate>Thu, 26 Jan 2017 18:56:30 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/</guid>
+      <description>
+
+&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+
+&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+
+&lt;p&gt;Lorem ipsum&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.1. Credits management and statistics</title>
+      <link>https://apalazzin.github.io/manual/credits-management-and-statistics/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/credits-management-and-statistics/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/Credit_page.png&#34; alt=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one.&#34; title=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one.&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CONSELF it is a &lt;strong&gt;pay-per-use CFD&lt;/strong&gt; application available via browser. In order to enjoy this service, you must &lt;strong&gt;activate&lt;/strong&gt; one of the &lt;a href=&#34;https://conself.com/product/subscriptions/&#34;&gt;available plans&lt;/a&gt;. When entering the application you can access two main pages: the &lt;em&gt;dashboard&lt;/em&gt; and the &lt;em&gt;simulations&lt;/em&gt;. Before proceeding to the part concerning the CFD, let&amp;rsquo;s have a look at what is reported in the dashboard. In here you keep under control the whole application and you have at a glance all the information about your simulations and credits availability.&lt;/p&gt;
+
+&lt;p&gt;Entering into the details of the dashboard, we have:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pie chart&lt;/strong&gt;: report of the used vs available credits. The report refers to your current plan and it gets updated after every simulation finishes.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Horizontal bars chart&lt;/strong&gt;: credits used during latest cases. With CONSELF you keep track of your costs in every moment and with this tool you can understand how you are using your credits and thus charging your customer according to this.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bottom left buttons&lt;/strong&gt;: link to this manual and to the CONSELF support team.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;More statistics are reported in the dashboard, such as the number of simulation steps performed. You are all invited to suggest even more by contacting the support team.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.2. CONSELF simulation process</title>
+      <link>https://apalazzin.github.io/manual/conself-simulation-process/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/conself-simulation-process/</guid>
+      <description>
+
+&lt;p&gt;Using means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Simulation&lt;/strong&gt;: a mathematical procedure that allows to reproduce in a virtual environment - software - a physical behavior. Compared to laboratory tests, it is a quicker and cheaper process. Ultimately, simulations help engineers validate the hypothesis behind every design phase.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Case&lt;/strong&gt;: any single test performed by using a simulation system.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Step&lt;/strong&gt;: any single phase the user has to accomplish in order to run a complete case simulation.&lt;/p&gt;
+
+&lt;p&gt;Although each CASE simulation depends on the users&amp;rsquo; needs, defines an identical path for every simulation. This path is divided into the following STEPS:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Step_selection.png&#34; alt=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one&#34; title=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one&#34; /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Geometry&lt;/li&gt;
+&lt;li&gt;Mesh&lt;/li&gt;
+&lt;li&gt;CFD&lt;/li&gt;
+&lt;li&gt;Results&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Obviously, in order to perform a certain STEP all previous ones must be completed. Furthermore, it is possible to run multiple STEP from the same precursor (i.e. run multiple CFD by using the same mesh). For this reason, when starting a new STEP it is always required to link it to a precursor, as shown in the picture.&lt;/p&gt;
+
+&lt;p&gt;In the present manual, each of these steps are accurately described and displayed, with examples taken form -run tutorials.&lt;/p&gt;
+
+&lt;h3 id=&#34;case-management&#34;&gt;Case Management&lt;/h3&gt;
+
+&lt;p&gt;After having logged in, the dashboard appears on screen. On the menu on the left side, the last entry is the &lt;strong&gt;Simulations&lt;/strong&gt; tab. Click on it to be redirected to the simulations front page, shown in the following figure. There are three main sections: two in the upper part and one in the bottom part of the figure.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Creation of new case&lt;/em&gt;: the case name has to be inserted in the edit box and must be no longer than 255 characters.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Application selection&lt;/em&gt; drop-down menu. This menu defines the application to be used in the current case among the available ones.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Create&lt;/em&gt; button redirects the user to &lt;em&gt;Section A&lt;/em&gt; of the &lt;a href=&#34;Manual#GEOMETRY&#34; title=&#34;wikilink&#34;&gt;Manual#GEOMETRY&lt;/a&gt; step of the newly created case.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Field name&lt;/th&gt;
+&lt;th&gt;Application name&lt;/th&gt;
+&lt;th&gt;Main features&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;GENERAL&lt;/td&gt;
+&lt;td&gt;Compressible and incompressible with steady and transient features.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;TURBO - SRF PUMPS&lt;/td&gt;
+&lt;td&gt;Single reference frame (rotating) incompressible flow. Steady simulation for pumps.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;OIL&amp;amp;GAS - FLOW WITH PARTICLES&lt;/td&gt;
+&lt;td&gt;Incompressible flow with with solid particles transported.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;OIL&amp;amp;GAS - MULTIPHASE FLOW&lt;/td&gt;
+&lt;td&gt;Incompressible flow of two inmiscible species.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;CFD&lt;/td&gt;
+&lt;td&gt;HVAC - JET FANS&lt;/td&gt;
+&lt;td&gt;CO and FIRE scenarios for indoor car park simulations.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;MECH&lt;/td&gt;
+&lt;td&gt;STATIC&lt;/td&gt;
+&lt;td&gt;Mechanical simulation using an isotropic linear elastic material.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;pre&gt;&lt;code&gt;Type the first part of the application name to filter the available choices.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/CarSimulationCaseCreation.png&#34; alt=&#34;Definitions of the zones in which the user interface is divided&#34; title=&#34;Definitions of the zones in which the user interface is divided&#34; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Selection of case&lt;/em&gt;: the user can open a previously created case from the drop-down list.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Open&lt;/em&gt; button redirects the user to the section/step where they left the last time that particular case was edited.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Cases in progress&lt;/em&gt;: all running simulations are shown in a table with the following details&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Case name&lt;/em&gt;: as inserted by the user during the creation&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Step&lt;/em&gt;: the step that is running in that moment&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Progress&lt;/em&gt;: both progress and percentage bars show the completion status for a given step&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;ETA&lt;/em&gt;: estimated time remaining to the end of the current step&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;disk-management&#34;&gt;Disk Management&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Storage_page.png&#34; alt=&#34;Disk management interface with reference to the area of the screen and the information displayed&#34; title=&#34;Disk management interface with reference to the area of the screen and the information displayed&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;CONSELF provides also cloud storage to save your remote cases. The storage availability may be different according to the plan you activate in our store. It is possible to check the space available on the disk and manage old cases.&lt;/p&gt;
+
+&lt;h3 id=&#34;conself-step-by-step&#34;&gt;CONSELF step by step&lt;/h3&gt;
+
+&lt;p&gt;guides you through the simulation literally step by step; in fact, in order to complete a simulation, the user has to go through several steps, each of which fulfills a precise task. Given the high flexibility of this method, users, less experienced as well, may take advantage of this philosophy of work: they have the ability to control the process, start over or modify what had previously been done. When a CASE is opened, a STEP interface is accessed, as shown in the picture below.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/General_STEP_page.png&#34; alt=&#34;General STEP page&#34; title=&#34;General STEP page&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The application is generally divided into two sides:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Left side&lt;/em&gt;: current step options to be defined by the user&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Right side&lt;/em&gt;: view of the simulation results up to the current step&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;It is fundamental to note the button (GREEN or RED) on the top right of the page named &lt;em&gt;Steps completed&lt;/em&gt;. By clicking it is possible to access a summary of performed steps with error messages, settings used and other information useful to keep improving your simulation. We recommend to &lt;strong&gt;check the &lt;a href=&#34;:Errors&#34; title=&#34;wikilink&#34;&gt;error&lt;/a&gt;&lt;/strong&gt; to have a quick overview of the most common error and their solution.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.3. GEOMETRY</title>
+      <link>https://apalazzin.github.io/manual/geometry/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/geometry/</guid>
+      <description>
+
+&lt;p&gt;The geometry step represents the phase in which the user defines the main geometrical characteristics of the case. The user is required to draw a complete geometry using a CAD software - see &lt;a href=&#34;External_link&#34; title=&#34;wikilink&#34;&gt;External_link&lt;/a&gt; to find free CAD softwares available on the internet that can be used with CONSELF CFD on Cloud. &lt;strong&gt;In order to get more information about the generation of CAD files, see &lt;a href=&#34;:CAD_file&#34; title=&#34;wikilink&#34;&gt;this page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;CONSELF can handle multiple unit systems and, furthermore, the user interface has the capability to generate a wind-tunnel geometry around the geometry, in order to speed up the setup process.&lt;/p&gt;
+
+&lt;h3 id=&#34;file-data&#34;&gt;File data&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Upload your geometry file. Supported formats are: &lt;em&gt;STEP&lt;/em&gt;, &lt;em&gt;STP&lt;/em&gt;, &lt;em&gt;IGES&lt;/em&gt;, &lt;em&gt;IGS&lt;/em&gt;, &lt;em&gt;STL&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;File Units&lt;/em&gt;: definition of the unit system used to generate the geometry file.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;pre&gt;&lt;code&gt;CONSELF CFD on Cloud uses S.I. units. The length unit is used to rescale the geometry sizes to meters.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;domain&#34;&gt;Domain&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Flow type&lt;/em&gt;: definition of the type of flow, whether &lt;em&gt;internal&lt;/em&gt; or &lt;em&gt;external&lt;/em&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Bounding Box&lt;/em&gt; (present only if &lt;em&gt;External Flow&lt;/em&gt; is selected): six data to define the distance of the bounding box from your geometry in negative and positive directions respectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After the completion of all fields, the user can finalize the step by clicking on the &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;Geometry&lt;/strong&gt; step application that will appear in the &lt;em&gt;Case in progress&lt;/em&gt; section of main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
+
+&lt;h3 id=&#34;practice&#34;&gt;Practice&lt;/h3&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/neXBd2zPJbc&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;In order to practice with the geometry step, please have a look at &lt;a href=&#34;:Category:Geometry&#34; title=&#34;wikilink&#34;&gt;these tutorials&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.4. MESH</title>
+      <link>https://apalazzin.github.io/manual/mesh/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/mesh/</guid>
+      <description>
+
+&lt;p&gt;Mesh is the STEP required in order to define the mesh.&lt;/p&gt;
+
+&lt;h3 id=&#34;volume-mesh&#34;&gt;Volume mesh&lt;/h3&gt;
+
+&lt;p&gt;In this section the user is asked to define the mesh algorithm and the basic mesh feature.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Meshing algorithm&lt;/em&gt;: drop down list from which the user has to select the meshing algorithm (see pictures below).&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Hexahedral&lt;/em&gt;: by using this algorithm, a fully cartesian grid is obtained. Depending on the mesh dimension specifications on the boundaries, local grid refinements are applied to meet the resolution constraints. In case the boundary layer is active, a highly stretched prismatic mesh is added to the tetrahedral one in the vicinity of the boundary surfaces.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Tetrahedral&lt;/em&gt;: by using this algorithm, a fully tetrahedral mesh is obtained. In case the boundary layer is active, a highly stretched prismatic mesh is added to the tetrahedral one in the vicinity of the boundary surfaces.&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Mesh smoothing&lt;/em&gt;: uniformity level of the volume mesh assigned as a percentage.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/HEXAMesh.png&#34; alt=&#34;Hexahedral mesh&#34; title=&#34;Hexahedral mesh&#34; /&gt; &lt;img src=&#34;images/Dolfin_mesh.png&#34; alt=&#34;Tetrahedral mesh&#34; title=&#34;Tetrahedral mesh&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/HEXAMesh.png&#34; alt=&#34;Hexahedral mesh&#34; title=&#34;Hexahedral mesh&#34; style=&#34;height: 200px; display: inline-block;&#34;/&gt;
+&lt;img src=&#34;images/Dolfin_mesh.png&#34; alt=&#34;Tetrahedral mesh&#34; title=&#34;Tetrahedral mesh&#34; style=&#34;height: 200px; display: inline-block;&#34;/&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;surface-refinement&#34;&gt;Surface Refinement&lt;/h3&gt;
+
+&lt;p&gt;In this section it is possible to define mesh local refinement for each of the considered surfaces.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Boundary treatment&lt;/em&gt;: selection of the boundary using an accordion menu.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Mesh uniformity&lt;/em&gt;: percentage that defines how rapidly the basic elements dimension grows.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Maximum mesh size&lt;/em&gt;: it defines the local mesh refinement (i.e. the element size) on the selected surface.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;advices&#34;&gt;Advices&lt;/h4&gt;
+
+&lt;p&gt;In order to choose correctly the &lt;em&gt;Maximum mesh size&lt;/em&gt; it is important to run a convergence analysis.&lt;/p&gt;
+
+&lt;h3 id=&#34;boundary-layer&#34;&gt;Boundary layer&lt;/h3&gt;
+
+&lt;p&gt;In this section it is possible to activate the boundary treatment (i.e. boundary layer) for wall resolution in CFD simulations.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Boundary treatment&lt;/em&gt;: selection of the boundary using an accordion menu.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Wall layers number&lt;/em&gt;: number of wall layers to be extruded from the surface&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;First wall cell height&lt;/em&gt;: value that ranges from (1\cdot e^{-6}\ [m]) to (1\cdot e^6\ [m]) and defines the dimension of the nearest cell to the wall in the normal direction.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/TetraBL.png&#34; alt=&#34;Representation of the two parameters used to define the boundary treatment&#34; title=&#34;Representation of the two parameters used to define the boundary treatment&#34; /&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;First wall cell height and y+ are mutually influenced. Remember to decrease the cell height if y+ is above 300 for k-epsilon or 1 for other turbulence models.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;After having completed this setup, the user can finalize the step by clicking on the &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;Mesh&lt;/strong&gt; step application that will show up in the &lt;em&gt;Case in progress&lt;/em&gt; section of the main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
+
+&lt;h3 id=&#34;practice&#34;&gt;Practice&lt;/h3&gt;
+
+&lt;p&gt;More &lt;strong&gt;information about&lt;/strong&gt; mesh quality is available in &lt;strong&gt;&lt;a href=&#34;https://conself.com/blog/4-mesh-issues-poor-accuracy/&#34;&gt;this&lt;/a&gt; blog post&lt;/strong&gt; and &lt;strong&gt;&lt;a href=&#34;https://conself.com/blog/what-is-boundary-layer-and-how-can-you-handle-it/&#34;&gt;this&lt;/a&gt;&lt;/strong&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.5. CFD</title>
+      <link>https://apalazzin.github.io/manual/cfd/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/cfd/</guid>
+      <description>
+
+&lt;p&gt;The CFD step represents the widest part of the whole simulation settings. The parameters present in the current step may vary according to the application chosen.&lt;/p&gt;
+
+&lt;h3 id=&#34;fluid-models&#34;&gt;Fluid Models&lt;/h3&gt;
+
+&lt;p&gt;The first section is about defining the fluid models, turbulence and density in particular.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Flow type&lt;/em&gt;: drop down list from which the user has to select the flow type&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Incompressible&lt;/em&gt;: to simulate incompressible fluids like water, oil or air at low velocity.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Compressible&lt;/em&gt;: to simulate compressible ideal-fluids like air or gas in general&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Turbulence&lt;/em&gt;: drop down list from which the user has to select the turbulence model&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Laminar&lt;/em&gt;: to simulate viscous flows in laminar regime&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;k-epsilon&lt;/em&gt;: to model turbulence via the two equations &lt;em&gt;k-epsilon&lt;/em&gt; model (&lt;a href=&#34;http://turbmodels.larc.nasa.gov/ke-chien.html&#34;&gt;reference&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;k-omega SST&lt;/em&gt;: to model turbulence via the two equations &lt;em&gt;k-omega SST&lt;/em&gt; model (&lt;a href=&#34;http://turbmodels.larc.nasa.gov/sst.html&#34;&gt;reference&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;SA&lt;/em&gt;: to model turbulence via the one equation &lt;em&gt;Spalart-Allmaras&lt;/em&gt; model (&lt;a href=&#34;http://turbmodels.larc.nasa.gov/spalart.html&#34;&gt;reference&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Fluid properties&lt;/em&gt;: specification of the fluid properties parameters&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Fluid initialization&lt;/em&gt;: definition of the initial condition for the fluid variables&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!-- --&gt;
+
+&lt;pre&gt;&lt;code&gt;Properties and parameters to insert vary with the Flow Type
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Turbulence initialization&lt;/em&gt;: definition of the initial condition for the turbulent variables&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;We report here the most common initialization for the turbulent variables&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Turbulent kinetic energy: $ k = \cfrac{3}{2} \left( \overline{u} \cdot I \right)^{2} $&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Turbulent dissipation rate: $ \epsilon = \cfrac{0.09 k^{1.5}}{l} $&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Specific dissipation rate: $ \omega = \cfrac{\sqrt{k}}{l} $&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Turbulent kinematic eddy viscosity: $ \nu_{t} = \sqrt{\cfrac{3}{2}} \overline{u} \cdot I l $&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;where $ I $ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $ D_h $.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Properties and parameters to insert vary with the Turbulence
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;special-sections&#34;&gt;Special sections&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;[To be completed &amp;hellip;]&lt;/em&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;boundary-conditions&#34;&gt;Boundary Conditions&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/BC_selection.png&#34; alt=&#34;Velocity inlet boundary condition application to selected boundary *asmo*.&#34; title=&#34;Velocity inlet boundary condition application to selected boundary asmo.&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;The boundary conditions are the fundamental stage of the CFD simulations. CONSELF gives you a multiple choice of boundaries, each of which is target for the peculiar application you are currently using. Here you are a brief summary of what you are required to insert.&lt;/p&gt;
+
+&lt;p&gt;In this section it is possible to specify the boundary condition to apply to the flow. For instance, it is possible to define an inlet, an outlet or a wall. In order to do that the user has to specify for each flow variable its value (or gradient) at a specific boundary.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;Boundary condition&lt;/em&gt;: drop down list from which the user has to select every surface of which the geometry (and the bounding box) is composed in order to assign boundary conditions to it.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;em&gt;BC TYPE list&lt;/em&gt;: a list of available boundary conditions to be assigned to every surface. Every choice of this list gives access to a certain number of parameters to be defined in order to process it correctly.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;In order to get hints and details about boundary conditions you may encounter check &lt;a href=&#34;:Boundaries&#34; title=&#34;wikilink&#34;&gt;this page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;By default every surface is assigned an adiabatic no-slip wall boundary condition.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;simulation-settings&#34;&gt;Simulation Settings&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Time scheme&lt;/em&gt;: drop down list from which the user has to select which type of simulation they want to perform in terms of behavior in time
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Transient&lt;/em&gt;: to setup a simulation where the focus is on how the flow changes in time, i.e. the quantities of interest are variable fluctuations over time&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Steady&lt;/em&gt;: to setup a simulation where the focus is on the final flow configuration, i.e. the converged steady solution that does not change anymore&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In case &lt;em&gt;Transient&lt;/em&gt; scheme is chosen&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Timestep&lt;/em&gt;: time accuracy defining the requested temporal resolution.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Final time&lt;/em&gt;: defines the final simulation time.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Output frequency&lt;/em&gt;: rules how often simulation results are saved.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;In case &lt;em&gt;Steady&lt;/em&gt; scheme is chosen&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Number of iterations&lt;/em&gt;: number of iterations performed by the CFD solver. The higher the number, the more accurate the solution.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Output frequency&lt;/em&gt;: specifies how often simulation results are saved for the visualization.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;After completion of all fields, the user can finalize the step clicking on &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;CFD&lt;/strong&gt; step application that will appear in the &lt;em&gt;Case in progress&lt;/em&gt; section of the main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The CFD step usually requires a high number of iterations (few thousands) in order to produce accurate results.
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>1.6. RESULTS</title>
+      <link>https://apalazzin.github.io/manual/results/</link>
+      <pubDate>Thu, 26 Jan 2017 19:00:52 +0100</pubDate>
+      
+      <guid>https://apalazzin.github.io/manual/results/</guid>
+      <description>&lt;p&gt;CONSELF offers a web based application to postprocess results. Have a look at the following video to check out the most important features of this web application.&lt;/p&gt;
+
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;//www.youtube.com/embed/00ZZvxKnQ6s&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
+ &lt;/div&gt;
+
+
+&lt;p&gt;&lt;/center&gt;
+Beside this tool, there are two more functionalities, highlighted in the picture: residual plot and results download. The first one displays the residuals of pressure and velocity fields obtained during the calculation, the latter instead allows to download the results in your local machine. This gives you access to advanced postprocessing functionalities with software such as &lt;a href=&#34;http://www.paraview.org/download/&#34;&gt;ParaView&lt;/a&gt;, available for Unix, Windows and OSx systems.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;The file is downloaded in ZIP format, so uncompress it and open the &amp;quot;.case&amp;quot; file with the abovementioned Paraview.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;img src=&#34;images/Result_page.png&#34; alt=&#34;Postprocessing options available&#34; title=&#34;Postprocessing options available&#34; /&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
