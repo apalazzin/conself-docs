@@ -5,7 +5,6 @@
 hugo server
 
 
-
 hugo new --kind chapter manual/index.md
 
 hugo new manual/credits-management-and-statistics/index.md
