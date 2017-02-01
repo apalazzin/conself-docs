@@ -2,9 +2,8 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
-# Build the index.
-# npm install
-# npm run index
+# Clear deploy folder
+rm -rf docs
 
 # Build the project
 hugo
@@ -21,4 +20,3 @@ git commit -m "$msg"
 
 # Push source and build repos
 git push origin master
-git subtree push --prefix=public git@github.com:apalazzin/apalazzin.github.io.git gh-pages
