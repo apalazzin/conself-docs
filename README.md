@@ -19,3 +19,9 @@ hugo new manual/results/index.md
 
 https://gohugo.io/content/markdown-extras/
 https://gohugo.io/extras/shortcodes/
+
+
+# Commit with deploy
+./deploy.sh "Your optional commit message"
+or
+./deploy.sh
