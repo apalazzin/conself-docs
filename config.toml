@@ -1,4 +1,4 @@
-baseurl = "https://apalazzin.github.io"
+baseurl = "https://apalazzin.github.io/conself-docs"
 languageCode = "en-us"
 title = "Hugo Learn Theme"
 theme = "hugo-theme-learn"

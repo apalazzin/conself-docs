@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Conts on Hugo Learn Theme</title>
-    <link>https://apalazzin.github.io/cont/index.xml</link>
+    <link>https://apalazzin.github.io/conself-docs/cont/index.xml</link>
     <description>Recent content in Conts on Hugo Learn Theme</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 09 Apr 2016 16:50:16 +0200</lastBuildDate>
-    <atom:link href="https://apalazzin.github.io/cont/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://apalazzin.github.io/conself-docs/cont/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Content</title>
-      <link>https://apalazzin.github.io/cont/</link>
+      <link>https://apalazzin.github.io/conself-docs/cont/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://apalazzin.github.io/cont/</guid>
+      <guid>https://apalazzin.github.io/conself-docs/cont/</guid>
       <description>
 
 &lt;h3 id=&#34;chapter-2&#34;&gt;Chapter 2&lt;/h3&gt;
@@ -27,10 +27,10 @@
     
     <item>
       <title>Pages</title>
-      <link>https://apalazzin.github.io/cont/pages/</link>
+      <link>https://apalazzin.github.io/conself-docs/cont/pages/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://apalazzin.github.io/cont/pages/</guid>
+      <guid>https://apalazzin.github.io/conself-docs/cont/pages/</guid>
       <description>
 
 &lt;p&gt;In &lt;strong&gt;Hugo&lt;/strong&gt;, pages are the core of your site. Once it is configure, pages are definitely the added value to your documentation site.&lt;/p&gt;
@@ -102,7 +102,7 @@ This current documentation has been statically generated with Hugo with a simple
 
 &lt;p&gt;To tell &lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; to consider a page as a chapter, just set &lt;code&gt;chapter: true&lt;/code&gt; in the &lt;a href=&#34;#front-matter&#34;&gt;front-matter headers&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides &lt;a href=&#34;https://apalazzin.github.io/cont/archetypes&#34;&gt;archetypes&lt;/a&gt; to help you create this kind of pages.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Hugo-theme-learn&lt;/strong&gt; provides &lt;a href=&#34;https://apalazzin.github.io/conself-docs/cont/archetypes&#34;&gt;archetypes&lt;/a&gt; to help you create this kind of pages.&lt;/p&gt;
 
 &lt;h2 id=&#34;front-matter&#34;&gt;Front Matter&lt;/h2&gt;
 
@@ -171,10 +171,10 @@ can explicitly define sections ordering in &lt;code&gt;config.toml&lt;/code&gt;.
     
     <item>
       <title>Markdown syntax</title>
-      <link>https://apalazzin.github.io/cont/markdown/</link>
+      <link>https://apalazzin.github.io/conself-docs/cont/markdown/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://apalazzin.github.io/cont/markdown/</guid>
+      <guid>https://apalazzin.github.io/conself-docs/cont/markdown/</guid>
       <description>
 
 &lt;div class=&#34;notices note&#34; &gt;&lt;p&gt;This page is a shameful copy of the great &lt;a href=&#34;http://learn.getgrav.org/content/markdown&#34;&gt;Grav original page&lt;/a&gt;.
@@ -872,10 +872,10 @@ Content for chapter one.
     
     <item>
       <title>Shortcodes</title>
-      <link>https://apalazzin.github.io/cont/shortcodes/</link>
+      <link>https://apalazzin.github.io/conself-docs/cont/shortcodes/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://apalazzin.github.io/cont/shortcodes/</guid>
+      <guid>https://apalazzin.github.io/conself-docs/cont/shortcodes/</guid>
       <description>
 
 &lt;p&gt;Hugo uses Markdown for its simple content format. However, there are a lot of things that Markdown doesn’t support well. You could use pure HTML to expand possibilities.&lt;/p&gt;
@@ -988,15 +988,15 @@ An warning disclaimer
     
     <item>
       <title>Archetypes</title>
-      <link>https://apalazzin.github.io/cont/archetypes/</link>
+      <link>https://apalazzin.github.io/conself-docs/cont/archetypes/</link>
       <pubDate>Sat, 09 Apr 2016 16:50:16 +0200</pubDate>
       
-      <guid>https://apalazzin.github.io/cont/archetypes/</guid>
+      <guid>https://apalazzin.github.io/conself-docs/cont/archetypes/</guid>
       <description>
 
 &lt;p&gt;Using the command: &lt;code&gt;hugo new [relative new content path]&lt;/code&gt;, you can start a content file with the date and title automatically set. While this is a welcome feature, active writers need more : &lt;a href=&#34;https://gohugo.io/content/archetypes/&#34;&gt;archetypes&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;It is pre-configured skeleton pages with default front matter. Please refer to the &lt;a href=&#34;https://apalazzin.github.io/cont/pages/#types&#34;&gt;documentation&lt;/a&gt; for types of page to understand the differences.&lt;/p&gt;
+&lt;p&gt;It is pre-configured skeleton pages with default front matter. Please refer to the &lt;a href=&#34;https://apalazzin.github.io/conself-docs/cont/pages/#types&#34;&gt;documentation&lt;/a&gt; for types of page to understand the differences.&lt;/p&gt;
 
 &lt;h2 id=&#34;chapter&#34;&gt;Chapter&lt;/h2&gt;
 
