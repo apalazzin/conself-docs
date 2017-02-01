@@ -1,0 +1,11 @@
+baseurl = "https://apalazzin.github.io"
+languageCode = "en-us"
+title = "Hugo Learn Theme"
+theme = "hugo-theme-learn"
+MetaDataFormat = "yaml"
+
+[params]
+  editURL = "https://github.com/matcornic/hugo-learn-doc/edit/master/content/"
+  description = "Documentation for CONSELF"
+  author = "Alberto Palazzin"
+  menu = [ "manual", "basics", "cont", "contributing"]
