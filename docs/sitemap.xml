@@ -94,6 +94,12 @@
   </url>
   
   <url>
+    <loc>https://apalazzin.github.io/conself-docs/</loc>
+    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://apalazzin.github.io/conself-docs/cont/</loc>
   </url>
   
@@ -106,12 +112,6 @@
   <url>
     <loc>https://apalazzin.github.io/conself-docs/cont/</loc>
     <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
     <priority>0</priority>
   </url>
   

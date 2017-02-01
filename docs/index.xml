@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Learn Theme</title>
+    <title>CONSELF Docs</title>
     <link>https://apalazzin.github.io/conself-docs/index.xml</link>
-    <description>Recent content on Hugo Learn Theme</description>
+    <description>Recent content on CONSELF Docs</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 26 Jan 2017 19:00:52 +0100</lastBuildDate>

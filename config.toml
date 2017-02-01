@@ -1,6 +1,6 @@
 baseurl = "https://apalazzin.github.io/conself-docs"
 languageCode = "en-us"
-title = "Hugo Learn Theme"
+title = "CONSELF Docs"
 theme = "hugo-theme-learn"
 MetaDataFormat = "yaml"
 publishDir = "docs"
