@@ -6,7 +6,7 @@ MetaDataFormat = "yaml"
 publishDir = "docs"
 
 [params]
-  editURL = "https://github.com/matcornic/hugo-learn-doc/edit/master/content/"
+  editURL = "https://github.com/apalazzin/conself-docs/tree/master/content/"
   description = "Documentation for CONSELF"
   author = "Alberto Palazzin"
   menu = [ "manual", "basics", "cont", "contributing"]
