@@ -16,7 +16,7 @@ hugo new manual/cfd/index.md
 hugo new manual/results/index.md
 
 
-
+https://gohugo.io/tutorials/github-pages-blog/
 https://gohugo.io/content/markdown-extras/
 https://gohugo.io/extras/shortcodes/
 
