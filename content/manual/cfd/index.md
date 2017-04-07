@@ -34,15 +34,15 @@ The first section is about defining the fluid models, turbulence and density in 
 
 We report here the most common initialization for the turbulent variables
 
-- Turbulent kinetic energy: $ k = \cfrac{3}{2} \left( \overline{u} \cdot I \right)^{2} $
+- Turbulent kinetic energy: $k = \cfrac{3}{2} \left( \overline{u} \cdot I \right)^{2}$
 
-- Turbulent dissipation rate: $ \epsilon = \cfrac{0.09 k^{1.5}}{l} $
+- Turbulent dissipation rate: $\epsilon = \cfrac{0.09 k^{1.5}}{l}$
 
-- Specific dissipation rate: $ \omega = \cfrac{\sqrt{k}}{l} $
+- Specific dissipation rate: $\omega = \cfrac{\sqrt{k}}{l}$
 
-- Turbulent kinematic eddy viscosity: $ \nu_{t} = \sqrt{\cfrac{3}{2}} \overline{u} \cdot I l $
+- Turbulent kinematic eddy viscosity: $\nu_{t} = \sqrt{\cfrac{3}{2}} \overline{u} \cdot I l$
 
-where $ I $ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $ D_h $.
+where $I$ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $D_h$.
 
     Properties and parameters to insert vary with the Turbulence
 

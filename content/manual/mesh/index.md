@@ -46,7 +46,7 @@ In this section it is possible to activate the boundary treatment (i.e. boundary
 
 - *Wall layers number*: number of wall layers to be extruded from the surface
 
-- *First wall cell height*: value that ranges from \(1\cdot e^{-6}\ [m]\) to \(1\cdot e^6\ [m]\) and defines the dimension of the nearest cell to the wall in the normal direction.
+- *First wall cell height*: value that ranges from $1\cdot e^{-6}\ [m]$ to $1\cdot e^6\ [m]$ and defines the dimension of the nearest cell to the wall in the normal direction.
 
 ![Representation of the two parameters used to define the boundary treatment](images/TetraBL.png "Representation of the two parameters used to define the boundary treatment")
 
