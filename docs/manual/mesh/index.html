@@ -424,7 +424,7 @@
 
 <li><p><em>Wall layers number</em>: number of wall layers to be extruded from the surface</p></li>
 
-<li><p><em>First wall cell height</em>: value that ranges from (1\cdot e^{-6}\ [m]) to (1\cdot e^6\ [m]) and defines the dimension of the nearest cell to the wall in the normal direction.</p></li>
+<li><p><em>First wall cell height</em>: value that ranges from $1\cdot e^{-6}\ [m]$ to $1\cdot e^6\ [m]$ and defines the dimension of the nearest cell to the wall in the normal direction.</p></li>
 </ul>
 
 <p><img src="images/TetraBL.png" alt="Representation of the two parameters used to define the boundary treatment" title="Representation of the two parameters used to define the boundary treatment" /></p>
@@ -438,32 +438,11 @@
 
 <p>More <strong>information about</strong> mesh quality is available in <strong><a href="https://conself.com/blog/4-mesh-issues-poor-accuracy/">this</a> blog post</strong> and <strong><a href="https://conself.com/blog/what-is-boundary-layer-and-how-can-you-handle-it/">this</a></strong>.</p>
 
-<script type="text/javascript"
+<script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
 </script>
-
 <script type="text/x-mathjax-config">
 MathJax.Hub.Config({
-  tex2jax: {
-    inlineMath: [['$','$'], ['\\(','\\)']],
-    displayMath: [['$$','$$'], ['\[','\]']],
-    processEscapes: true,
-    processEnvironments: true,
-    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-    TeX: { equationNumbers: { autoNumber: "AMS" },
-         extensions: ["AMSmath.js", "AMSsymbols.js"] }
-  }
-});
-</script>
-
-<script type="text/x-mathjax-config">
-  MathJax.Hub.Queue(function() {
-    // Fix <code> tags after MathJax finishes running. This is a
-    // hack to overcome a shortcoming of Markdown. Discussion at
-    // https://github.com/mojombo/jekyll/issues/199
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i = 0; i &lt; all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';
-    }
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
 });
 </script>

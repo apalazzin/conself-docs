@@ -266,7 +266,7 @@
 
 &lt;li&gt;&lt;p&gt;&lt;em&gt;Wall layers number&lt;/em&gt;: number of wall layers to be extruded from the surface&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;&lt;em&gt;First wall cell height&lt;/em&gt;: value that ranges from (1\cdot e^{-6}\ [m]) to (1\cdot e^6\ [m]) and defines the dimension of the nearest cell to the wall in the normal direction.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;em&gt;First wall cell height&lt;/em&gt;: value that ranges from $1\cdot e^{-6}\ [m]$ to $1\cdot e^6\ [m]$ and defines the dimension of the nearest cell to the wall in the normal direction.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;&lt;img src=&#34;images/TetraBL.png&#34; alt=&#34;Representation of the two parameters used to define the boundary treatment&#34; title=&#34;Representation of the two parameters used to define the boundary treatment&#34; /&gt;&lt;/p&gt;
@@ -330,16 +330,16 @@
 &lt;p&gt;We report here the most common initialization for the turbulent variables&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;Turbulent kinetic energy: $ k = \cfrac{3}{2} \left( \overline{u} \cdot I \right)^{2} $&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Turbulent kinetic energy: $k = \cfrac{3}{2} \left( \overline{u} \cdot I \right)^{2}$&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Turbulent dissipation rate: $ \epsilon = \cfrac{0.09 k^{1.5}}{l} $&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Turbulent dissipation rate: $\epsilon = \cfrac{0.09 k^{1.5}}{l}$&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Specific dissipation rate: $ \omega = \cfrac{\sqrt{k}}{l} $&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Specific dissipation rate: $\omega = \cfrac{\sqrt{k}}{l}$&lt;/p&gt;&lt;/li&gt;
 
-&lt;li&gt;&lt;p&gt;Turbulent kinematic eddy viscosity: $ \nu_{t} = \sqrt{\cfrac{3}{2}} \overline{u} \cdot I l $&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Turbulent kinematic eddy viscosity: $\nu_{t} = \sqrt{\cfrac{3}{2}} \overline{u} \cdot I l$&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;where $ I $ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $ D_h $.&lt;/p&gt;
+&lt;p&gt;where $I$ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $D_h$.&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;Properties and parameters to insert vary with the Turbulence
 &lt;/code&gt;&lt;/pre&gt;
