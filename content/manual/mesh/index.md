@@ -50,7 +50,9 @@ In this section it is possible to activate the boundary treatment (i.e. boundary
 
 ![Representation of the two parameters used to define the boundary treatment](images/TetraBL.png "Representation of the two parameters used to define the boundary treatment")
 
-    First wall cell height and y+ are mutually influenced. Remember to decrease the cell height if y+ is above 300 for k-epsilon or 1 for other turbulence models.
+{{% notice info %}}
+First wall cell height and y+ are mutually influenced. Remember to decrease the cell height if y+ is above 300 for k-epsilon or 1 for other turbulence models.
+{{% /notice %}}
 
 After having completed this setup, the user can finalize the step by clicking on the *Submit* button. This will start the **Mesh** step application that will show up in the *Case in progress* section of the main *Simulation* page.
 

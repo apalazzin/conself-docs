@@ -186,10 +186,9 @@
 &lt;li&gt;&lt;em&gt;File Units&lt;/em&gt;: definition of the unit system used to generate the geometry file.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- --&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;CONSELF CFD on Cloud uses S.I. units. The length unit is used to rescale the geometry sizes to meters.&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;CONSELF CFD on Cloud uses S.I. units. The length unit is used to rescale the geometry sizes to meters.
-&lt;/code&gt;&lt;/pre&gt;
 
 &lt;h3 id=&#34;domain&#34;&gt;Domain&lt;/h3&gt;
 
@@ -272,8 +271,9 @@
 
 &lt;p&gt;&lt;img src=&#34;images/TetraBL.png&#34; alt=&#34;Representation of the two parameters used to define the boundary treatment&#34; title=&#34;Representation of the two parameters used to define the boundary treatment&#34; /&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;First wall cell height and y+ are mutually influenced. Remember to decrease the cell height if y+ is above 300 for k-epsilon or 1 for other turbulence models.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;First wall cell height and y+ are mutually influenced. Remember to decrease the cell height if y+ is above 300 for k-epsilon or 1 for other turbulence models.&lt;/p&gt;
+&lt;/div&gt;
+
 
 &lt;p&gt;After having completed this setup, the user can finalize the step by clicking on the &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;Mesh&lt;/strong&gt; step application that will show up in the &lt;em&gt;Case in progress&lt;/em&gt; section of the main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
 
@@ -319,10 +319,9 @@
 &lt;li&gt;&lt;p&gt;&lt;em&gt;Fluid initialization&lt;/em&gt;: definition of the initial condition for the fluid variables&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- --&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Properties and parameters to insert vary with the Flow Type&lt;/p&gt;
+&lt;/div&gt;
 
-&lt;pre&gt;&lt;code&gt;Properties and parameters to insert vary with the Flow Type
-&lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Turbulence initialization&lt;/em&gt;: definition of the initial condition for the turbulent variables&lt;/li&gt;
@@ -342,8 +341,9 @@
 
 &lt;p&gt;where $I$ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $D_h$.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;Properties and parameters to insert vary with the Turbulence
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Properties and parameters to insert vary with the Turbulence&lt;/p&gt;
+&lt;/div&gt;
+
 
 &lt;h3 id=&#34;special-sections&#34;&gt;Special sections&lt;/h3&gt;
 
@@ -365,8 +365,9 @@
 
 &lt;p&gt;&lt;strong&gt;In order to get hints and details about boundary conditions you may encounter check &lt;a href=&#34;:Boundaries&#34; title=&#34;wikilink&#34;&gt;this page&lt;/a&gt;.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;By default every surface is assigned an adiabatic no-slip wall boundary condition.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;By default every surface is assigned an adiabatic no-slip wall boundary condition.&lt;/p&gt;
+&lt;/div&gt;
+
 
 &lt;h3 id=&#34;simulation-settings&#34;&gt;Simulation Settings&lt;/h3&gt;
 
@@ -396,8 +397,9 @@
 
 &lt;p&gt;After completion of all fields, the user can finalize the step clicking on &lt;em&gt;Submit&lt;/em&gt; button. This will start the &lt;strong&gt;CFD&lt;/strong&gt; step application that will appear in the &lt;em&gt;Case in progress&lt;/em&gt; section of the main &lt;em&gt;Simulation&lt;/em&gt; page.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;The CFD step usually requires a high number of iterations (few thousands) in order to produce accurate results.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;The CFD step usually requires a high number of iterations (few thousands) in order to produce accurate results.&lt;/p&gt;
+&lt;/div&gt;
+
 </description>
     </item>
     
@@ -418,8 +420,9 @@
 &lt;p&gt;&lt;/center&gt;
 Beside this tool, there are two more functionalities, highlighted in the picture: residual plot and results download. The first one displays the residuals of pressure and velocity fields obtained during the calculation, the latter instead allows to download the results in your local machine. This gives you access to advanced postprocessing functionalities with software such as &lt;a href=&#34;http://www.paraview.org/download/&#34;&gt;ParaView&lt;/a&gt;, available for Unix, Windows and OSx systems.&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;The file is downloaded in ZIP format, so uncompress it and open the &amp;quot;.case&amp;quot; file with the abovementioned Paraview.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;The file is downloaded in ZIP format, so uncompress it and open the &amp;ldquo;.case&amp;rdquo; file with the abovementioned Paraview.&lt;/p&gt;
+&lt;/div&gt;
+
 
 &lt;p&gt;&lt;img src=&#34;images/Result_page.png&#34; alt=&#34;Postprocessing options available&#34; title=&#34;Postprocessing options available&#34; /&gt;&lt;/p&gt;
 </description>

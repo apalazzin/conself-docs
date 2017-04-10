@@ -16,9 +16,9 @@ CONSELF can handle multiple unit systems and, furthermore, the user interface ha
 - Upload your geometry file. Supported formats are: *STEP*, *STP*, *IGES*, *IGS*, *STL*
 - *File Units*: definition of the unit system used to generate the geometry file.
 
-<!-- -->
-
-	CONSELF CFD on Cloud uses S.I. units. The length unit is used to rescale the geometry sizes to meters.
+{{% notice info %}}
+CONSELF CFD on Cloud uses S.I. units. The length unit is used to rescale the geometry sizes to meters.
+{{% /notice %}}
 
 ### Domain
 

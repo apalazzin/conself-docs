@@ -26,9 +26,9 @@ The first section is about defining the fluid models, turbulence and density in 
 - *Fluid properties*: specification of the fluid properties parameters
 - *Fluid initialization*: definition of the initial condition for the fluid variables
 
-<!-- -->
-
-    Properties and parameters to insert vary with the Flow Type
+{{% notice info %}}
+Properties and parameters to insert vary with the Flow Type
+{{% /notice %}}
 
 - *Turbulence initialization*: definition of the initial condition for the turbulent variables
 
@@ -44,7 +44,9 @@ We report here the most common initialization for the turbulent variables
 
 where $I$ is the turbulence intensity (suggested between 1% and 10%) and l is the turbulence length scale, approximated with the hydraulic diameter $D_h$.
 
-    Properties and parameters to insert vary with the Turbulence
+{{% notice info %}}
+Properties and parameters to insert vary with the Turbulence
+{{% /notice %}}
 
 ### Special sections
 
@@ -64,7 +66,9 @@ In this section it is possible to specify the boundary condition to apply to the
 
 **In order to get hints and details about boundary conditions you may encounter check [this page](:Boundaries "wikilink").**
 
-    By default every surface is assigned an adiabatic no-slip wall boundary condition.
+{{% notice info %}}
+By default every surface is assigned an adiabatic no-slip wall boundary condition.
+{{% /notice %}}
 
 ### Simulation Settings
 
@@ -85,4 +89,6 @@ In case *Steady* scheme is chosen
 
 After completion of all fields, the user can finalize the step clicking on *Submit* button. This will start the **CFD** step application that will appear in the *Case in progress* section of the main *Simulation* page.
 
-    The CFD step usually requires a high number of iterations (few thousands) in order to produce accurate results.
+{{% notice info %}}
+The CFD step usually requires a high number of iterations (few thousands) in order to produce accurate results.
+{{% /notice %}}
