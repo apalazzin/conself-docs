@@ -7,7 +7,7 @@ toc: true
 weight: 5
 ---
 
-Using means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:
+Using CONSELF means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:
 
 **Simulation**: a mathematical procedure that allows to reproduce in a virtual environment - software - a physical behavior. Compared to laboratory tests, it is a quicker and cheaper process. Ultimately, simulations help engineers validate the hypothesis behind every design phase.
 
@@ -15,9 +15,7 @@ Using means entering a new mindset, a new philosophy of simulating. Therefore, i
 
 **Step**: any single phase the user has to accomplish in order to run a complete case simulation.
 
-Although each CASE simulation depends on the users' needs, defines an identical path for every simulation. This path is divided into the following STEPS:
-
-![Selection of a precursor MESH 2D step when starting a MESH 3D one](images/Step_selection.png "Selection of a precursor MESH 2D step when starting a MESH 3D one")
+Although each CASE simulation depends on the users' needs, CONSELF defines an identical path for every simulation. This path is divided into the following STEPS:
 
 1. Geometry
 2. Mesh
@@ -26,11 +24,13 @@ Although each CASE simulation depends on the users' needs, defines an identical 
 
 Obviously, in order to perform a certain STEP all previous ones must be completed. Furthermore, it is possible to run multiple STEP from the same precursor (i.e. run multiple CFD by using the same mesh). For this reason, when starting a new STEP it is always required to link it to a precursor, as shown in the picture.
 
-In the present manual, each of these steps are accurately described and displayed, with examples taken form -run tutorials.
+{{< figure src="images/Step_selection.png" alt="Selection of a precursor MESH 2D step when starting a MESH 3D one" title="Selection of a precursor MESH 2D step when starting a MESH 3D one" >}}
+
+In the present manual, each of these steps are accurately described and displayed, with examples taken form CONSELF-run tutorials.
 
 ### Case Management
 
-After having logged in, the dashboard appears on screen. On the menu on the left side, the last entry is the **Simulations** tab. Click on it to be redirected to the simulations front page, shown in the following figure. There are three main sections: two in the upper part and one in the bottom part of the figure.
+After having logged in, the CONSELF dashboard appears on screen. On the menu on the left side, the last entry is the **Simulations** tab. Click on it to be redirected to the simulations front page, shown in the following figure. There are three main sections: two in the upper part and one in the bottom part of the figure.
 
 - *Creation of new case*: the case name has to be inserted in the edit box and must be no longer than 255 characters.
 - *Application selection* drop-down menu. This menu defines the application to be used in the current case among the available ones.

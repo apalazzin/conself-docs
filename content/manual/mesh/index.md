@@ -19,6 +19,8 @@ In this section the user is asked to define the mesh algorithm and the basic mes
 
 - *Mesh smoothing*: uniformity level of the volume mesh assigned as a percentage.
 
+{{< figure src="images/HEXAMesh.png" alt="Hexahedral mesh" title="Hexahedral mesh" >}}
+
 ![Hexahedral mesh](images/HEXAMesh.png "Hexahedral mesh") ![Tetrahedral mesh](images/Dolfin_mesh.png "Tetrahedral mesh")
 
 <img src="images/HEXAMesh.png" alt="Hexahedral mesh" title="Hexahedral mesh" style="height: 200px; display: inline-block;"/>

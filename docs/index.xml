@@ -39,7 +39,7 @@
       <guid>https://apalazzin.github.io/conself-docs/manual/conself-simulation-process/</guid>
       <description>
 
-&lt;p&gt;Using means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:&lt;/p&gt;
+&lt;p&gt;Using CONSELF means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Simulation&lt;/strong&gt;: a mathematical procedure that allows to reproduce in a virtual environment - software - a physical behavior. Compared to laboratory tests, it is a quicker and cheaper process. Ultimately, simulations help engineers validate the hypothesis behind every design phase.&lt;/p&gt;
 
@@ -47,9 +47,7 @@
 
 &lt;p&gt;&lt;strong&gt;Step&lt;/strong&gt;: any single phase the user has to accomplish in order to run a complete case simulation.&lt;/p&gt;
 
-&lt;p&gt;Although each CASE simulation depends on the users&amp;rsquo; needs, defines an identical path for every simulation. This path is divided into the following STEPS:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;images/Step_selection.png&#34; alt=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one&#34; title=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;Although each CASE simulation depends on the users&amp;rsquo; needs, CONSELF defines an identical path for every simulation. This path is divided into the following STEPS:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Geometry&lt;/li&gt;
@@ -60,11 +58,25 @@
 
 &lt;p&gt;Obviously, in order to perform a certain STEP all previous ones must be completed. Furthermore, it is possible to run multiple STEP from the same precursor (i.e. run multiple CFD by using the same mesh). For this reason, when starting a new STEP it is always required to link it to a precursor, as shown in the picture.&lt;/p&gt;
 
-&lt;p&gt;In the present manual, each of these steps are accurately described and displayed, with examples taken form -run tutorials.&lt;/p&gt;
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;images/Step_selection.png&#34; alt=&#34;Selection of a precursor MESH 2D step when starting a MESH 3D one&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Selection of a precursor MESH 2D step when starting a MESH 3D one&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
+
+&lt;p&gt;In the present manual, each of these steps are accurately described and displayed, with examples taken form CONSELF-run tutorials.&lt;/p&gt;
 
 &lt;h3 id=&#34;case-management&#34;&gt;Case Management&lt;/h3&gt;
 
-&lt;p&gt;After having logged in, the dashboard appears on screen. On the menu on the left side, the last entry is the &lt;strong&gt;Simulations&lt;/strong&gt; tab. Click on it to be redirected to the simulations front page, shown in the following figure. There are three main sections: two in the upper part and one in the bottom part of the figure.&lt;/p&gt;
+&lt;p&gt;After having logged in, the CONSELF dashboard appears on screen. On the menu on the left side, the last entry is the &lt;strong&gt;Simulations&lt;/strong&gt; tab. Click on it to be redirected to the simulations front page, shown in the following figure. There are three main sections: two in the upper part and one in the bottom part of the figure.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;em&gt;Creation of new case&lt;/em&gt;: the case name has to be inserted in the edit box and must be no longer than 255 characters.&lt;/li&gt;
@@ -235,6 +247,20 @@
 
 &lt;li&gt;&lt;p&gt;&lt;em&gt;Mesh smoothing&lt;/em&gt;: uniformity level of the volume mesh assigned as a percentage.&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
+
+
+&lt;figure &gt;
+    
+        &lt;img src=&#34;images/HEXAMesh.png&#34; alt=&#34;Hexahedral mesh&#34; /&gt;
+    
+    
+    &lt;figcaption&gt;
+        &lt;h4&gt;Hexahedral mesh&lt;/h4&gt;
+        
+    &lt;/figcaption&gt;
+    
+&lt;/figure&gt;
+
 
 &lt;p&gt;&lt;img src=&#34;images/HEXAMesh.png&#34; alt=&#34;Hexahedral mesh&#34; title=&#34;Hexahedral mesh&#34; /&gt; &lt;img src=&#34;images/Dolfin_mesh.png&#34; alt=&#34;Tetrahedral mesh&#34; title=&#34;Tetrahedral mesh&#34; /&gt;&lt;/p&gt;
 
