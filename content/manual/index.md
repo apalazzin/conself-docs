@@ -4,12 +4,14 @@ date: 2017-01-26T18:56:30+01:00
 icon: <b>1. </b>
 next: /next/path
 prev: /prev/path
-title: Some Chapter title
+title: Manual
 weight: 0
 ---
 
-### Chapter X
+### Chapter 1
 
-# Some Chapter title
+# Manual
 
-Lorem ipsum
+CFD simulations are very powerful instruments: the models they involve are extremely accurate and, thus, close attention is needed when setting up the case. Every section of the process presents some specific features that have to be addressed bearing few (but important) concepts in mind.
+
+This page serves precisely the purpose of giving the user general advice on how to approach each and every step of the CFD study setup with CONSELF CFD on Cloud. Every user, from novices to pros, will find fundamental tips to help them reach a state of the art result. In order to guide the user through each GUI parameter, a detailed explanation of every field is reported here.

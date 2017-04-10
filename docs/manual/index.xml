@@ -10,18 +10,20 @@
     <atom:link href="https://apalazzin.github.io/conself-docs/manual/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Some Chapter title</title>
+      <title>Manual</title>
       <link>https://apalazzin.github.io/conself-docs/manual/</link>
       <pubDate>Thu, 26 Jan 2017 18:56:30 +0100</pubDate>
       
       <guid>https://apalazzin.github.io/conself-docs/manual/</guid>
       <description>
 
-&lt;h3 id=&#34;chapter-x&#34;&gt;Chapter X&lt;/h3&gt;
+&lt;h3 id=&#34;chapter-1&#34;&gt;Chapter 1&lt;/h3&gt;
 
-&lt;h1 id=&#34;some-chapter-title&#34;&gt;Some Chapter title&lt;/h1&gt;
+&lt;h1 id=&#34;manual&#34;&gt;Manual&lt;/h1&gt;
 
-&lt;p&gt;Lorem ipsum&lt;/p&gt;
+&lt;p&gt;CFD simulations are very powerful instruments: the models they involve are extremely accurate and, thus, close attention is needed when setting up the case. Every section of the process presents some specific features that have to be addressed bearing few (but important) concepts in mind.&lt;/p&gt;
+
+&lt;p&gt;This page serves precisely the purpose of giving the user general advice on how to approach each and every step of the CFD study setup with CONSELF CFD on Cloud. Every user, from novices to pros, will find fundamental tips to help them reach a state of the art result. In order to guide the user through each GUI parameter, a detailed explanation of every field is reported here.&lt;/p&gt;
 </description>
     </item>
     
