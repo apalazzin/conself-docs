@@ -20,11 +20,7 @@ In this section the user is asked to define the mesh algorithm and the basic mes
 - *Mesh smoothing*: uniformity level of the volume mesh assigned as a percentage.
 
 {{< figure src="images/HEXAMesh.png" alt="Hexahedral mesh" title="Hexahedral mesh" >}}
-
-![Hexahedral mesh](images/HEXAMesh.png "Hexahedral mesh") ![Tetrahedral mesh](images/Dolfin_mesh.png "Tetrahedral mesh")
-
-<img src="images/HEXAMesh.png" alt="Hexahedral mesh" title="Hexahedral mesh" style="height: 200px; display: inline-block;"/>
-<img src="images/Dolfin_mesh.png" alt="Tetrahedral mesh" title="Tetrahedral mesh" style="height: 200px; display: inline-block;"/>
+{{< figure src="images/Dolfin_mesh.png" alt="Tetrahedral mesh" title="Tetrahedral mesh" >}}
 
 ### Surface Refinement
 
@@ -50,7 +46,7 @@ In this section it is possible to activate the boundary treatment (i.e. boundary
 
 - *First wall cell height*: value that ranges from $1\cdot e^{-6}\ [m]$ to $1\cdot e^6\ [m]$ and defines the dimension of the nearest cell to the wall in the normal direction.
 
-![Representation of the two parameters used to define the boundary treatment](images/TetraBL.png "Representation of the two parameters used to define the boundary treatment")
+{{< figure src="images/TetraBL.png" alt="Representation of the two parameters used to define the boundary treatment" >}}
 
 {{% notice info %}}
 First wall cell height and y+ are mutually influenced. Remember to decrease the cell height if y+ is above 300 for k-epsilon or 1 for other turbulence models.

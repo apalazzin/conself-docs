@@ -7,9 +7,9 @@ toc: true
 weight: 5
 ---
 
-![Selection of a precursor MESH 2D step when starting a MESH 3D one.](images/Credit_page.png "Selection of a precursor MESH 2D step when starting a MESH 3D one.")
-
 CONSELF it is a **pay-per-use CFD** application available via browser. In order to enjoy this service, you must **activate** one of the [available plans](https://conself.com/product/subscriptions/). When entering the application you can access two main pages: the *dashboard* and the *simulations*. Before proceeding to the part concerning the CFD, let's have a look at what is reported in the dashboard. In here you keep under control the whole application and you have at a glance all the information about your simulations and credits availability.
+
+{{< figure src="images/Credit_page.png" alt="CONSELF dashboard page" title="CONSELF dashboard page" >}}
 
 Entering into the details of the dashboard, we have:
 
