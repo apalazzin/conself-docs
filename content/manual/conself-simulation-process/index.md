@@ -45,7 +45,9 @@ After having logged in, the dashboard appears on screen. On the menu on the left
 |CFD|HVAC - JET FANS|CO and FIRE scenarios for indoor car park simulations.|
 |MECH|STATIC|Mechanical simulation using an isotropic linear elastic material.|
 
-	Type the first part of the application name to filter the available choices.
+{{% notice info %}}
+Type the first part of the application name to filter the available choices.
+{{% /notice %}}
 
 ![Definitions of the zones in which the user interface is divided](images/CarSimulationCaseCreation.png "Definitions of the zones in which the user interface is divided")
 

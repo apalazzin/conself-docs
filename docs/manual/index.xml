@@ -138,8 +138,9 @@
 &lt;/tbody&gt;
 &lt;/table&gt;
 
-&lt;pre&gt;&lt;code&gt;Type the first part of the application name to filter the available choices.
-&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;notices info&#34; &gt;&lt;p&gt;Type the first part of the application name to filter the available choices.&lt;/p&gt;
+&lt;/div&gt;
+
 
 &lt;p&gt;&lt;img src=&#34;images/CarSimulationCaseCreation.png&#34; alt=&#34;Definitions of the zones in which the user interface is divided&#34; title=&#34;Definitions of the zones in which the user interface is divided&#34; /&gt;&lt;/p&gt;
 
