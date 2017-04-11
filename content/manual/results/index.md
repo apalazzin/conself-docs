@@ -1,7 +1,4 @@
 ---
-date: 2017-01-26T19:00:52+01:00
-next: /next/path
-prev: /prev/path
 title: 1.6. RESULTS
 toc: true
 weight: 5

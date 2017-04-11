@@ -1,7 +1,4 @@
 ---
-date: 2017-01-26T19:00:52+01:00
-next: /next/path
-prev: /prev/path
 title: 1.5. CFD
 toc: true
 weight: 5

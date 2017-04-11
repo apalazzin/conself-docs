@@ -1,10 +1,7 @@
 ---
-date: 2017-01-26T19:00:52+01:00
-next: /next/path
-prev: /prev/path
 title: 1.3. GEOMETRY
 toc: true
-weight: 5
+weight: 3
 ---
 
 The geometry step represents the phase in which the user defines the main geometrical characteristics of the case. The user is required to draw a complete geometry using a CAD software - see [External\_link](External_link "wikilink") to find free CAD softwares available on the internet that can be used with CONSELF CFD on Cloud. **In order to get more information about the generation of CAD files, see [this page](:CAD_file "wikilink").**

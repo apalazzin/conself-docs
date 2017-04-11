@@ -3,121 +3,38 @@
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/manual/credits-management-and-statistics/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apalazzin.github.io/conself-docs/manual/</loc>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/manual/conself-simulation-process/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/manual/geometry/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://apalazzin.github.io/conself-docs/contributing/</loc>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/manual/mesh/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/manual/cfd/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/manual/results/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/contributing/</loc>
-    <lastmod>2016-04-09T16:58:30+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/cont/pages/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/basics/what-is-this-hugo-theme/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/basics/requirements/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/cont/markdown/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/basics/installation/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/basics/configuration/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/cont/shortcodes/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/cont/archetypes/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/manual/</loc>
-    <lastmod>2017-01-26T18:56:30+01:00</lastmod>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/</loc>
-    <lastmod>2017-01-26T18:56:30+01:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/basics/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/basics/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/</loc>
-    <lastmod>2017-01-26T19:00:52+01:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/cont/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/contributing/</loc>
-    <lastmod>2016-04-09T16:58:30+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/cont/</loc>
-    <lastmod>2016-04-09T16:50:16+02:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/manual/</loc>
-    <lastmod>2017-01-26T18:56:30+01:00</lastmod>
     <priority>0</priority>
   </url>
   

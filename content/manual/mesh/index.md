@@ -1,10 +1,7 @@
 ---
-date: 2017-01-26T19:00:52+01:00
-next: /next/path
-prev: /prev/path
 title: 1.4. MESH
 toc: true
-weight: 5
+weight: 4
 ---
 
 Mesh is the STEP required in order to define the mesh.

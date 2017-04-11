@@ -1,9 +1,7 @@
 ---
-date: 2016-04-09T16:58:30+02:00
-prev: /cont/archetypes
 title: Contributing
 icon: "<b>3. </b>"
-weight: 5
+weight: 3
 ---
 
 To help the world to be a better place, you could :

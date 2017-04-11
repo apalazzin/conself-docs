@@ -1,10 +1,7 @@
 ---
-date: 2017-01-26T19:00:52+01:00
-next: /next/path
-prev: /prev/path
 title: 1.2. CONSELF simulation process
 toc: true
-weight: 5
+weight: 2
 ---
 
 Using CONSELF means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:
