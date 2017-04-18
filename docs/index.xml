@@ -11,16 +11,7 @@
     
     
     <item>
-      <title>1.1. Credits management and statistics</title>
-      <link>https://apalazzin.github.io/conself-docs/manual/credits-management-and-statistics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://apalazzin.github.io/conself-docs/manual/credits-management-and-statistics/</guid>
-      <description>CONSELF it is a pay-per-use CFD application available via browser. In order to enjoy this service, you must activate one of the available plans. When entering the application you can access two main pages: the dashboard and the simulations. Before proceeding to the part concerning the CFD, let&amp;rsquo;s have a look at what is reported in the dashboard. In here you keep under control the whole application and you have at a glance all the information about your simulations and credits availability.</description>
-    </item>
-    
-    <item>
-      <title>2.1. 3D Fuser</title>
+      <title>3D Fuser</title>
       <link>https://apalazzin.github.io/conself-docs/validation/3d-fuser/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -29,7 +20,7 @@
     </item>
     
     <item>
-      <title>3.1. CAD Files</title>
+      <title>CAD Files</title>
       <link>https://apalazzin.github.io/conself-docs/hints/cad-files/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -39,7 +30,16 @@ Create fluid volumes In order to run a CFD simulation you have to generate the v
     </item>
     
     <item>
-      <title>4.1 External Link</title>
+      <title>Credits management and statistics</title>
+      <link>https://apalazzin.github.io/conself-docs/manual/credits-management-and-statistics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apalazzin.github.io/conself-docs/manual/credits-management-and-statistics/</guid>
+      <description>CONSELF it is a pay-per-use CFD application available via browser. In order to enjoy this service, you must activate one of the available plans. When entering the application you can access two main pages: the dashboard and the simulations. Before proceeding to the part concerning the CFD, let&amp;rsquo;s have a look at what is reported in the dashboard. In here you keep under control the whole application and you have at a glance all the information about your simulations and credits availability.</description>
+    </item>
+    
+    <item>
+      <title>External Link</title>
       <link>https://apalazzin.github.io/conself-docs/contributing/external-link/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -53,28 +53,7 @@ File formats  STEP files (reference here) Initial Graphics Exchange Specificatio
     </item>
     
     <item>
-      <title>1.2. CONSELF simulation process</title>
-      <link>https://apalazzin.github.io/conself-docs/manual/conself-simulation-process/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://apalazzin.github.io/conself-docs/manual/conself-simulation-process/</guid>
-      <description>Using CONSELF means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:
-Simulation: a mathematical procedure that allows to reproduce in a virtual environment - software - a physical behavior. Compared to laboratory tests, it is a quicker and cheaper process. Ultimately, simulations help engineers validate the hypothesis behind every design phase.</description>
-    </item>
-    
-    <item>
-      <title>2.2. Lid Driven Cavity</title>
-      <link>https://apalazzin.github.io/conself-docs/validation/lid-driven-cavity/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://apalazzin.github.io/conself-docs/validation/lid-driven-cavity/</guid>
-      <description>GEOMETRY Input file from File:LidDriven.stp
-File data  In File units select Millimeters In Grouping Criteria STEP select By Curve Entity  Domain  In Flow Type select Internal  MESH2D Surface mesh Complete this section by filling the input data according to the following table
-   Boundary name Uniformity level [%] Max element size [m]     BC-Parte1FACE1 70 0.04   BC-Parte1FACE2 70 0.</description>
-    </item>
-    
-    <item>
-      <title>3.2. Boundary Conditions</title>
+      <title>Boundary Conditions</title>
       <link>https://apalazzin.github.io/conself-docs/hints/boundaries/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -85,7 +64,28 @@ Boundary availability depends on the application you are currently using.
     </item>
     
     <item>
-      <title>1.3. GEOMETRY</title>
+      <title>CONSELF simulation process</title>
+      <link>https://apalazzin.github.io/conself-docs/manual/conself-simulation-process/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apalazzin.github.io/conself-docs/manual/conself-simulation-process/</guid>
+      <description>Using CONSELF means entering a new mindset, a new philosophy of simulating. Therefore, in order to be able to read and understand the following tutorials, bear in mind the following key definitions:
+Simulation: a mathematical procedure that allows to reproduce in a virtual environment - software - a physical behavior. Compared to laboratory tests, it is a quicker and cheaper process. Ultimately, simulations help engineers validate the hypothesis behind every design phase.</description>
+    </item>
+    
+    <item>
+      <title>Lid Driven Cavity</title>
+      <link>https://apalazzin.github.io/conself-docs/validation/lid-driven-cavity/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apalazzin.github.io/conself-docs/validation/lid-driven-cavity/</guid>
+      <description>GEOMETRY Input file from File:LidDriven.stp
+File data  In File units select Millimeters In Grouping Criteria STEP select By Curve Entity  Domain  In Flow Type select Internal  MESH2D Surface mesh Complete this section by filling the input data according to the following table
+   Boundary name Uniformity level [%] Max element size [m]     BC-Parte1FACE1 70 0.04   BC-Parte1FACE2 70 0.</description>
+    </item>
+    
+    <item>
+      <title>GEOMETRY</title>
       <link>https://apalazzin.github.io/conself-docs/manual/geometry/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -95,7 +95,16 @@ CONSELF can handle multiple unit systems and, furthermore, the user interface ha
     </item>
     
     <item>
-      <title>1.3. Wind Turbine</title>
+      <title>General Errors</title>
+      <link>https://apalazzin.github.io/conself-docs/hints/errors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://apalazzin.github.io/conself-docs/hints/errors/</guid>
+      <description>After each STEPS has been performed, it is possible to check its results by clicking on the steps summary button. This will report a summary table where RED items are problematic steps. For each problem an error message, with a brief description and suggested action is reported. For the sake of clarity, we report a more detailed description of the problem and the suggested solution to make even easier to our customers the web-application.</description>
+    </item>
+    
+    <item>
+      <title>Wind Turbine</title>
       <link>https://apalazzin.github.io/conself-docs/validation/wind-turbine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -105,16 +114,7 @@ CONSELF can handle multiple unit systems and, furthermore, the user interface ha
     </item>
     
     <item>
-      <title>3.3. General Errors</title>
-      <link>https://apalazzin.github.io/conself-docs/hints/errors/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://apalazzin.github.io/conself-docs/hints/errors/</guid>
-      <description>After each STEPS has been performed, it is possible to check its results by clicking on the steps summary button. This will report a summary table where RED items are problematic steps. For each problem an error message, with a brief description and suggested action is reported. For the sake of clarity, we report a more detailed description of the problem and the suggested solution to make even easier to our customers the web-application.</description>
-    </item>
-    
-    <item>
-      <title>1.4. MESH</title>
+      <title>MESH</title>
       <link>https://apalazzin.github.io/conself-docs/manual/mesh/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -126,7 +126,7 @@ Volume mesh In this section the user is asked to define the mesh algorithm and t
     </item>
     
     <item>
-      <title>1.5. CFD</title>
+      <title>CFD</title>
       <link>https://apalazzin.github.io/conself-docs/manual/cfd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
@@ -138,7 +138,7 @@ Fluid Models The first section is about defining the fluid models, turbulence an
     </item>
     
     <item>
-      <title>1.6. RESULTS</title>
+      <title>RESULTS</title>
       <link>https://apalazzin.github.io/conself-docs/manual/results/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       

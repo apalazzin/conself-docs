@@ -2,15 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://apalazzin.github.io/conself-docs/manual/credits-management-and-statistics/</loc>
-  </url>
-  
-  <url>
     <loc>https://apalazzin.github.io/conself-docs/validation/3d-fuser/</loc>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/hints/cad-files/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apalazzin.github.io/conself-docs/manual/credits-management-and-statistics/</loc>
   </url>
   
   <url>
@@ -22,15 +22,15 @@
   </url>
   
   <url>
+    <loc>https://apalazzin.github.io/conself-docs/hints/boundaries/</loc>
+  </url>
+  
+  <url>
     <loc>https://apalazzin.github.io/conself-docs/manual/conself-simulation-process/</loc>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/validation/lid-driven-cavity/</loc>
-  </url>
-  
-  <url>
-    <loc>https://apalazzin.github.io/conself-docs/hints/boundaries/</loc>
   </url>
   
   <url>
@@ -42,10 +42,6 @@
   </url>
   
   <url>
-    <loc>https://apalazzin.github.io/conself-docs/validation/wind-turbine/</loc>
-  </url>
-  
-  <url>
     <loc>https://apalazzin.github.io/conself-docs/hints/errors/</loc>
   </url>
   
@@ -54,11 +50,15 @@
   </url>
   
   <url>
-    <loc>https://apalazzin.github.io/conself-docs/manual/mesh/</loc>
+    <loc>https://apalazzin.github.io/conself-docs/validation/wind-turbine/</loc>
   </url>
   
   <url>
     <loc>https://apalazzin.github.io/conself-docs/contributing/</loc>
+  </url>
+  
+  <url>
+    <loc>https://apalazzin.github.io/conself-docs/manual/mesh/</loc>
   </url>
   
   <url>
