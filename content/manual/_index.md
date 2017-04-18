@@ -4,8 +4,6 @@ icon: "<b>1. </b>"
 weight: 1
 ---
 
-### Chapter 1
-
 # Manual
 
 CFD simulations are very powerful instruments: the models they involve are extremely accurate and, thus, close attention is needed when setting up the case. Every section of the process presents some specific features that have to be addressed bearing few (but important) concepts in mind.
