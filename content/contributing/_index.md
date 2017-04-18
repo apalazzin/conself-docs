@@ -1,7 +1,7 @@
 ---
 title: Contributing
-icon: "<b>3. </b>"
-weight: 3
+icon: "<b>4. </b>"
+weight: 4
 ---
 
 # Contributing
