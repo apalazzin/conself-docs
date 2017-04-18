@@ -6,4 +6,4 @@ weight: 2
 
 # Validation
 
-... TODO ...
+[To be completed …]

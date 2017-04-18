@@ -4,4 +4,7 @@ toc: true
 weight: 3
 ---
 
-... TODO present ...
+Check this validation of OpenFOAM® against Fluent.
+
+{{< youtube OBae-GV9KEA >}} 
+Courtesy of grantjfan.
