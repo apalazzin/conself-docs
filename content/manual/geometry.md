@@ -4,11 +4,11 @@ toc: true
 weight: 3
 ---
 
-The geometry step represents the phase in which the user defines the main geometrical characteristics of the case. The user is required to draw a complete geometry using a CAD software - see [External\_link](External_link "wikilink") to find free CAD softwares available on the internet that can be used with CONSELF CFD on Cloud. **In order to get more information about the generation of CAD files, see [this page](:CAD_file "wikilink").**
+The geometry step represents the phase in which the user defines the main geometrical characteristics of the case. The user is required to draw a complete geometry using a CAD software - see [External Link]({{< ref "external-link.md" >}}) to find free CAD softwares available on the internet that can be used with CONSELF CFD on Cloud. **In order to get more information about the generation of CAD files, see [this page](:CAD_file "wikilink").**
 
 CONSELF can handle multiple unit systems and, furthermore, the user interface has the capability to generate a wind-tunnel geometry around the geometry, in order to speed up the setup process.
 
-### File data
+### File data {#file-data}
 
 - Upload your geometry file. Supported formats are: *STEP*, *STP*, *IGES*, *IGS*, *STL*
 - *File Units*: definition of the unit system used to generate the geometry file.

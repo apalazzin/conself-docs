@@ -31,7 +31,7 @@ After having logged in, the CONSELF dashboard appears on screen. On the menu on 
 
 - *Creation of new case*: the case name has to be inserted in the edit box and must be no longer than 255 characters.
 - *Application selection* drop-down menu. This menu defines the application to be used in the current case among the available ones.
-- *Create* button redirects the user to *Section A* of the [Manual\#GEOMETRY](Manual#GEOMETRY "wikilink") step of the newly created case.
+- *Create* button redirects the user to [Section A]({{< ref "geometry.md#file-data" >}}) of the GEOMETRY step of the newly created case.
 
 |Field name|Application name|Main features|
 |----------|----------------|-------------|
