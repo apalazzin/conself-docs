@@ -17,19 +17,12 @@ To help the world be a better place, you could :
 
 Thanks to them <3
 
-- [matcornic](https://github.com/matcornic)
-- [lierdakil](https://github.com/lierdakil)
-- [gwleclerc](https://github.com/gwleclerc)
-- [Xipas](https://github.com/Xipas)
-- [Thiht](https://github.com/Thiht)
-- [giuliov](https://github.com/giuliov)
-- [ripienaar](https://github.com/ripienaar)
-- [kamilchm](https://github.com/kamilchm)
-- [JohnBlood](https://github.com/JohnBlood)
+- [apalazzin](https://github.com/apalazzin)
+- [rupole1185](https://github.com/rupole1185)
+- [alexpalms](https://github.com/alexpalms)
 
 ## TODO
 
-- Handling more than 2 levels in documentation.
+- Navigation prev/next
 - Search in site
-- Handling videos
 - Add optional button to create doc issue (like github)
