@@ -7,6 +7,6 @@ publishDir = "docs"
 
 [params]
   editURL = "https://github.com/apalazzin/conself-docs/tree/master/content/"
-  description = "Documentation for CONSELF"
+  description = "CONSELF Docs"
   author = "Alberto Palazzin"
   autoNav = true
