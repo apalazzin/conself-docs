@@ -1,5 +1,5 @@
 ---
-title: 3.2. Boundary Conditions
+title: Boundary Conditions
 toc: true
 weight: 2
 ---

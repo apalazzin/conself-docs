@@ -1,5 +1,5 @@
 ---
-title: 1.1. Credits management and statistics
+title: Credits management and statistics
 toc: true
 weight: 1
 ---

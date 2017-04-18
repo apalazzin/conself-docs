@@ -1,5 +1,5 @@
 ---
-title: 3.1. CAD Files
+title: CAD Files
 toc: true
 weight: 1
 ---

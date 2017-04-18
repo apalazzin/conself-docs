@@ -1,5 +1,5 @@
 ---
-title: 1.3. GEOMETRY
+title: GEOMETRY
 toc: true
 weight: 3
 ---

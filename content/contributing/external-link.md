@@ -1,5 +1,5 @@
 ---
-title: 4.1 External Link
+title: External Link
 toc: true
 weight: 1
 ---

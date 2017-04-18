@@ -1,5 +1,5 @@
 ---
-title: 1.5. CFD
+title: CFD
 toc: true
 weight: 5
 ---

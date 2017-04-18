@@ -1,5 +1,5 @@
 ---
-title: 1.4. MESH
+title: MESH
 toc: true
 weight: 4
 ---

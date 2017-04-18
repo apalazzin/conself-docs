@@ -1,5 +1,5 @@
 ---
-title: 1.6. RESULTS
+title: RESULTS
 toc: true
 weight: 5
 ---

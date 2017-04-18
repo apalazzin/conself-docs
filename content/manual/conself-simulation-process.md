@@ -1,5 +1,5 @@
 ---
-title: 1.2. CONSELF simulation process
+title: CONSELF simulation process
 toc: true
 weight: 2
 ---

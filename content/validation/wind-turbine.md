@@ -1,5 +1,5 @@
 ---
-title: 1.3. Wind Turbine
+title: Wind Turbine
 toc: true
 weight: 3
 ---
