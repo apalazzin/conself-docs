@@ -1,6 +1,8 @@
 ## Useful guides and links
 
 * https://matcornic.github.io/hugo-learn-doc/cont/markdown/
+* https://github.com/matcornic/hugo-learn-doc
+* https://github.com/matcornic/hugo-theme-learn
 * https://gohugo.io/tutorials/github-pages-blog/
 * https://gohugo.io/content/markdown-extras/
 * https://gohugo.io/extras/shortcodes/
